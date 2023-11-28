@@ -3,9 +3,19 @@ import type { Metadata } from "next";
 import { Lato, Oswald, Inter } from "next/font/google";
 import Header from "./widgets/header";
 
-const lato = Lato({ weight: ["400"], subsets: ["latin"] });
-const oswald = Oswald({ subsets: ["latin"] });
-const inter = Inter({ subsets: ["latin"], weight: ["700"] });
+const lato = Lato({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-lato",
+});
+
+const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["900"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Monikaverein",
@@ -17,7 +27,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const fonts = `${lato.className} ${oswald.className} ${inter.className}`;
+  const fonts = `${lato.variable} ${oswald.variable} ${inter.variable} font-sans`;
 
   return (
     <html lang="en" data-theme="light">

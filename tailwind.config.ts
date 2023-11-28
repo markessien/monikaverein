@@ -6,9 +6,12 @@ const config: Config = {
   //   "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   //   "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   // ],
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      colors: {
+        "gray-1": "#333",
+      },
       screens: {
         // Max Breakpoints
         "2xl": { max: "1535px" },
@@ -20,10 +23,10 @@ const config: Config = {
         lg: { max: "1023px" },
         // => @media (max-width: 1023px) { ... }
 
-        md: { max: "767px" },
+        md: { max: "800px" },
         // => @media (max-width: 767px) { ... }
 
-        sm: { max: "639px" },
+        sm: { max: "600px" },
         // => @media (max-width: 639px) { ... }
 
         xs: { max: "360px" },
@@ -34,9 +37,9 @@ const config: Config = {
         // => @media (min-width: 1024px) { ... }
       },
       fontFamily: {
-        title: ['"Oswald", sans-serif'],
-        text: ['"Lato", sans-serif'],
-        inter: ['"Inter", sans-serif'],
+        title: ["var(--font-oswald)"],
+        text: ["var(--font-lato)"],
+        inter: ["var(--font-inter)"],
       },
     },
   },

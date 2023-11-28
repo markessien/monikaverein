@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @layer components {} */
+
+/* :root {} */
+
+
+body {
+  font-family: var(--font-lato)
+}
+
+/* @media (prefers-color-scheme: dark) {} */
