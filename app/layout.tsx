@@ -1,20 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Lato, Oswald, Inter } from "next/font/google";
+import { Oswald } from "next/font/google";
 import Header from "./widgets/header";
 
-const lato = Lato({
-  weight: ["400"],
+const oswald = Oswald({
   subsets: ["latin"],
-  variable: "--font-lato",
-});
-
-const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["900"],
-  variable: "--font-inter",
+  weight: ["400", "700"],
+  variable: "--font-oswald",
 });
 
 export const metadata: Metadata = {
@@ -27,11 +19,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const fonts = `${lato.variable} ${oswald.variable} ${inter.variable} font-sans`;
+  const font = `${oswald.variable} font-sans;`;
 
   return (
     <html lang="en" data-theme="light">
-      <body className={fonts}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="use-credentials"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lato:ital@0;1&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
+      <body className={font}>
         <Header />
         {children}
       </body>
