@@ -4,7 +4,7 @@ import ArrowRight from "./icons/ArrowRight";
 
 const Hero = () => {
   return (
-    <section className="carousel w-full relative h-[768px] lg:h-[500px] sm:!h-96 ">
+    <section className="carousel w-full relative h-[768px] lg:h-[500px] sm:!h-[300px]">
       <LazyImage
         id="slide1"
         className="carousel-item relative w-full"

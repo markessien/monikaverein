@@ -41,6 +41,9 @@ const config: Config = {
         // Min Breakpoints
         lg_up: "1025px",
         // => @media (min-width: 1024px) { ... }
+
+        md_up: "801px",
+        // => @media (min-width: 1024px) { ... }
       },
       fontFamily: {
         title: ["var(--font-oswald)"],

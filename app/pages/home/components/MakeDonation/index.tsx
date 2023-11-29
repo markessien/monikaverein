@@ -1,5 +1,6 @@
 import Heading42 from "@/shared/components/Heading42";
 import PageLayer from "@/shared/components/PageLayer";
+import Slider from "./Slider";
 
 const MakeDonation = () => {
   return (
@@ -10,6 +11,12 @@ const MakeDonation = () => {
         Your priceless support plays an important and crucial role in our unrelenting pursuit of making a real
         difference.
       </p>
+
+      <Slider />
+
+      <button className="btn btn-outline text-error text-xl font-inter font-normal w-fit mx-auto mt-5">
+        Learn More
+      </button>
     </PageLayer>
   );
 };
