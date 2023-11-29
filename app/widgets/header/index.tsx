@@ -6,7 +6,7 @@ import spendenSiegel from "./images/spenden-siegel.png";
 
 const Header = () => {
   return (
-    <header className="navbar bg-base-100 lg_up:px-20 py-5 md:px-5">
+    <header className="navbar bg-base-100 lg_up:px-20 py-5 md:px-5 sticky top-0 z-10">
       <MobileDropdown />
 
       <div className="navbar-start">

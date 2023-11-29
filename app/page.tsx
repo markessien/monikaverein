@@ -1,3 +1,5 @@
-export default function Home() {
-  return <main className="px-6 py-1"></main>;
+import Home from "./pages/home";
+
+export default function Page() {
+  return <Home />;
 }

@@ -11,6 +11,12 @@ const config: Config = {
     extend: {
       colors: {
         "gray-1": "#333",
+
+        sec: "#08395E",
+
+        error: "#DD424C",
+
+        "secondary-300": "#839CAE",
       },
       screens: {
         // Max Breakpoints
@@ -47,7 +53,14 @@ const config: Config = {
   plugins: [require("daisyui")],
 
   daisyui: {
-    themes: ["light"],
+    themes: [
+      {
+        sunset: {
+          ...require("daisyui/src/theming/themes")["light"],
+          error: "#DD424C",
+        },
+      },
+    ],
   },
 };
 
