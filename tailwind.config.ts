@@ -26,7 +26,7 @@ const config: Config = {
         xl: { max: "1279px" },
         // => @media (max-width: 1279px) { ... }
 
-        lg: { max: "1023px" },
+        lg: { max: "1024px" },
         // => @media (max-width: 1023px) { ... }
 
         md: { max: "800px" },
@@ -39,7 +39,7 @@ const config: Config = {
         // => @media (max-width: 360px) { ... }
 
         // Min Breakpoints
-        lg_up: "1024px",
+        lg_up: "1025px",
         // => @media (min-width: 1024px) { ... }
       },
       fontFamily: {
