@@ -9,48 +9,60 @@ type Props = {
   blur?: string;
 };
 
-const LazyImage = ({ src, className = "", blur, id }: Props) => {
+const LazyImage = ({ src = "", className = "", blur = "", id }: Props) => {
   const divRef = useRef<HTMLDivElement>(null);
-  const [opacity, setOpacity] = useState(1);
   const [mountLazy, setMountLazy] = useState(true);
 
   useEffect(() => {
     const el = divRef.current;
     const img = el?.querySelector("img");
 
-    if (!el || !img) {
-      setMountLazy(false);
-      setOpacity(0);
-      return;
-    }
+    if (!el || !img) return setMountLazy(false);
+
+    const loaders = Array.from(el.querySelectorAll(".j-loader")) as HTMLElement[];
 
     setMountLazy(true);
-    setOpacity(1);
+    setOpacity(img, 0);
+    loaders.forEach((el) => setOpacity(el, 1));
 
-    if (img.complete) handleLoad();
-    else img.addEventListener("load", handleLoad);
+    const loaded = () => {
+      setOpacity(img, 1);
+      loaders.forEach((el) => setOpacity(el, 0));
+
+      setTimeout(() => setMountLazy(false), 2000);
+    };
+
+    if (img.complete) loaded();
+    else img.addEventListener("load", loaded);
 
     return () => {
-      img?.removeEventListener("load", handleLoad);
+      img.removeEventListener("load", loaded);
     };
 
     // eslint-disable-next-line
   }, [divRef, src]);
 
-  const handleLoad = () => {
-    setOpacity(0);
-    setTimeout(() => setMountLazy(false), 1000);
+  const setOpacity = (el: HTMLElement, opacity = 1 | 0) => {
+    if (opacity) {
+      el.classList.remove("opacity-0");
+      el.classList.add("opacity-1");
+    } else {
+      el.classList.remove("opacity-1");
+      el.classList.add("opacity-0");
+    }
   };
 
-  const lazyClassNames = `absolute left-0 top-0 w-full h-full transition-opacity duration-500 opacity-${opacity}`;
+  const lazyClassNames = `absolute left-0 top-0 w-full h-full transition-opacity duration-500 ease-in-out opacity-1 j-loader`;
 
   return (
     <div ref={divRef} id={id} className={`relative ${className}`}>
-      <img src={src} className="w-full h-full" style={{ opacity: opacity ? 0 : 1 }} loading="lazy" />
+      <img src={src} alt="" className="w-full h-full opacity-0" loading="lazy" />
 
-      {mountLazy && <div className={`${lazyClassNames} z-[1] skeleton rounded-none bg-transparent`}></div>}
+      {mountLazy && (
+        <div className={`${lazyClassNames} z-[1] skeleton rounded-none ${blur ? "bg-transparent" : ""} `}></div>
+      )}
 
-      {mountLazy && <img src={blur} className={`blur-lg ${lazyClassNames}`} />}
+      {mountLazy && blur && <img src={blur} alt="" className={`blur-lg  ${lazyClassNames}`} />}
     </div>
   );
 };
