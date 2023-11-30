@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 type Props = {
   children?: ReactNode;
   className?: string;
-  tag?: "section" | "div" | "header";
+  tag?: "section" | "div" | "header" | "footer";
 };
 
 const PageLayer = ({ children, tag = "section", className = "" }: Props) => {

@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import Header from "./widgets/header";
+import Footer from "./widgets/footer";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={font}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
