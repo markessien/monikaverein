@@ -4,6 +4,7 @@ import MakeDonation from "./components/MakeDonation";
 import Philosophy from "./components/Philosophy";
 import SupportProject from "./components/SupportProject";
 import WorkInAfrica from "@/shared/components/WorkInAfrica";
+import ContactInfo from "@/shared/components/ContactInfo";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Philosophy />
       <WorkTogether />
       <WorkInAfrica />
+      <ContactInfo />
     </main>
   );
 };

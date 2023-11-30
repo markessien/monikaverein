@@ -40,8 +40,11 @@ const config: Config = {
         // => @media (max-width: 360px) { ... }
 
         // Min Breakpoints
+        xl_up: "1280px",
+        // => @media (min-width: 1280px) { ... }
+
         lg_up: "1025px",
-        // => @media (min-width: 1024px) { ... }
+        // => @media (min-width: 1025px) { ... }
 
         md_up: "801px",
         // => @media (min-width: 1024px) { ... }

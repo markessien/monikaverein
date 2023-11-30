@@ -4,7 +4,7 @@ import { NavItem } from "./NavItem";
 const MobileDropdown = () => {
   return (
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg_up:hidden border border-solid border-gray-400 mr-2">
+      <div tabIndex={0} role="button" className="btn btn-ghost xl_up:hidden border border-solid border-gray-400 mr-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"

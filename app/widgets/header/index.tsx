@@ -13,7 +13,7 @@ const Header = () => {
         <a className="btn btn-ghost text-black text-4xl font-inter font-black">LOGO</a>
       </div>
 
-      <div className="shrink-0 ml-5 flex lg:hidden">
+      <div className="shrink-0 ml-5 flex xl:hidden">
         <NavItemList />
       </div>
 
