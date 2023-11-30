@@ -10,7 +10,7 @@ const WorkTogether = () => {
     <PageLayer className="flex flex-col gap-20">
       <Heading42>Ways we can work together</Heading42>
 
-      <div className="flex gap-6 justify-around">
+      <div className="flex gap-6 justify-around flex-wrap md:gap-16">
         <Item image={<FundRaising />} title="Fundraising" link="" />
         <Item image={<Volunteering />} title="Volunteering" link="" />
         <Item image={<Giving />} title="Giving" link="" />
