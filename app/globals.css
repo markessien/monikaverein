@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer components {
   .btn {
     @apply font-inter font-normal text-xl
+  }
+
+  .btn-error {
+    @apply text-white
   }
 
   .btn-outline {

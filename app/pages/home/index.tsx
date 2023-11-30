@@ -7,7 +7,7 @@ import WorkInAfrica from "@/shared/components/WorkInAfrica";
 
 const Home = () => {
   return (
-    <main className="flex flex-col gap-20 pb-1">
+    <main className="flex flex-col gap-20">
       <Hero />
       <SupportProject />
       <MakeDonation />

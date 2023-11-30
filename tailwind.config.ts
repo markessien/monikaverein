@@ -17,6 +17,7 @@ const config: Config = {
         error: "#DD424C",
 
         "secondary-300": "#839CAE",
+        "secondary-100": "#E6EBEE",
       },
       screens: {
         // Max Breakpoints
