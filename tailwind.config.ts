@@ -11,6 +11,8 @@ const config: Config = {
     extend: {
       colors: {
         "gray-1": "#333",
+        "gray-2": "#737373",
+        "gray-3": "#979797",
 
         sec: "#08395E",
 
@@ -18,6 +20,7 @@ const config: Config = {
 
         "secondary-300": "#839CAE",
         "secondary-100": "#E6EBEE",
+        "secondary-400": "#52748E",
       },
       screens: {
         // Max Breakpoints

@@ -5,6 +5,7 @@ import Philosophy from "./components/Philosophy";
 import SupportProject from "./components/SupportProject";
 import WorkInAfrica from "@/shared/components/WorkInAfrica";
 import ContactInfo from "@/shared/components/ContactInfo";
+import Waitlist from "@/shared/components/Waitlist";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WorkTogether />
       <WorkInAfrica />
       <ContactInfo />
+      <Waitlist />
     </main>
   );
 };
