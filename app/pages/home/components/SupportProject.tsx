@@ -3,7 +3,7 @@ import PageLayer from "@/shared/components/PageLayer";
 
 const SupportProject = () => {
   return (
-    <PageLayer className="flex flex-col gap-3 relative" tag="section">
+    <PageLayer className="flex flex-col gap-3 relative -mt-20" tag="section">
       <DollarLabel />
 
       <Heading42 className="heading-42 mt-5">Support our Back to School Project</Heading42>
@@ -13,13 +13,13 @@ const SupportProject = () => {
         providing skills training for them.
       </p>
 
-      <button className="btn btn-error text-white mx-auto mt-3">Donate Now</button>
+      <button className="btn btn-error mx-auto mt-3">Donate Now</button>
     </PageLayer>
   );
 };
 
 const DollarLabel = () => (
-  <div className="rounded bg-white p-4 absolute left-[45%] -top-20 lg:left-1/2 lg:-translate-x-1/2 ">
+  <div className="rounded bg-white p-4 absolute left-[45%] -top-20 lg:left-1/2 lg:-translate-x-1/2 sm:hidden">
     <span className="text-sec text-4xl font-bold border border-solid border-secondary-300 bg-neutral-100 p-2 w-40 inline-block text-center rounded font-text">
       $20
     </span>

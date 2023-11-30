@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const MakeDonation = () => {
   return (
-    <PageLayer className="flex flex-col gap-3 mt-20" tag="section">
+    <PageLayer className="flex flex-col gap-3" tag="section">
       <Heading42 className="heading-42 mt-5">Your donation makes a difference</Heading42>
 
       <p className="text-center text-xl font-text max-w-[962px] mx-auto">

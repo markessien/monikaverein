@@ -4,7 +4,15 @@
 
 
 
-/* @layer components {} */
+@layer components {
+  .btn {
+    @apply font-inter font-normal text-xl
+  }
+
+  .btn-outline {
+    @apply text-error hover:bg-error hover:text-white
+  }
+}
 
 :root {
   --font-inter: 'Inter', sans-serif;

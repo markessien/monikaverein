@@ -60,6 +60,7 @@ const config: Config = {
       {
         sunset: {
           ...require("daisyui/src/theming/themes")["light"],
+          // base: "#DD424C",
           error: "#DD424C",
         },
       },

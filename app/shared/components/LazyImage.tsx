@@ -7,11 +7,18 @@ type Props = {
   id?: string;
   className?: string;
   blur?: string;
+  // callback?: {
+  //   md?: () => string;
+  //   sm?: () => string;
+  // };
 };
 
 const LazyImage = ({ src = "", className = "", blur = "", id }: Props) => {
   const divRef = useRef<HTMLDivElement>(null);
   const [mountLazy, setMountLazy] = useState(true);
+
+  // if (device.md && callback.md) src = callback.md();
+  // if (device.sm && callback.sm) src = callback.sm();
 
   useEffect(() => {
     const el = divRef.current;
