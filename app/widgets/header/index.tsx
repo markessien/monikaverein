@@ -3,6 +3,7 @@ import NavItemList from "./components/NavItemList";
 import SearchAction from "./components/SearchAction";
 import Image from "next/image";
 import spendenSiegel from "./images/spenden-siegel.png";
+import Logo from "../components/Logo";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <MobileDropdown />
 
       <div className="navbar-start w-fit">
-        <a className="btn btn-ghost text-black text-4xl font-inter font-black">LOGO</a>
+        <Logo />
       </div>
 
       <div className="shrink-0 ml-5 flex xl:hidden">

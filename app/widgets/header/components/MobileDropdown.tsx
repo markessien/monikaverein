@@ -18,7 +18,7 @@ const MobileDropdown = () => {
       <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         {NavList.map((item) => (
           <li key={item.name}>
-            <NavItem name={item.name} />
+            <NavItem {...item} />
           </li>
         ))}
       </ul>

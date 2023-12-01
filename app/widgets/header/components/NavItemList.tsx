@@ -6,7 +6,7 @@ const NavItemList = () => {
     <ul className="menu menu-horizontal px-1">
       {NavList.map((item) => (
         <li key={item.name}>
-          <NavItem name={item.name} />
+          <NavItem {...item} />
         </li>
       ))}
     </ul>

@@ -6,6 +6,7 @@ import Social from "./Social";
 import Facebook from "@/shared/icons/Facebook";
 import Twitter from "@/shared/icons/Twitter";
 import LinkedIn from "@/shared/icons/LinkedIn";
+import Logo from "../components/Logo";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
       <div className="flex flex-wrap gap-4 w-full max-w-[1500px]">
         <InitiativeBadge />
 
-        <a className="btn btn-ghost text-black-1 text-4xl font-inter font-black -mt-2 hover:bg-transparent">LOGO</a>
+        <Logo className="btn btn-ghost text-black-1 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
 
         <p className="font-text text-base font-normal text-neutral-100 mt-2">© Monika Kindergarten Förderverein e.V.</p>
 

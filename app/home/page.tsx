@@ -7,7 +7,7 @@ import WorkInAfrica from "@/shared/components/WorkInAfrica";
 import ContactInfo from "@/shared/components/ContactInfo";
 import Waitlist from "@/shared/components/Waitlist";
 
-const Home = () => {
+const Page = () => {
   return (
     <main className="flex flex-col gap-20">
       <Hero />
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;

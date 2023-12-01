@@ -9,6 +9,10 @@ const config: Config = {
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      data: {
+        active: 'active="true"',
+      },
+
       colors: {
         "gray-1": "#333",
         "gray-2": "#737373",
@@ -20,6 +24,8 @@ const config: Config = {
         sec: "#08395E",
 
         error: "#DD424C",
+
+        primary: "#DD424C",
 
         "secondary-300": "#839CAE",
         "secondary-100": "#E6EBEE",
@@ -71,6 +77,7 @@ const config: Config = {
       {
         sunset: {
           ...require("daisyui/src/theming/themes")["light"],
+          primary: "#DD424C",
           // base: "#DD424C",
           error: "#DD424C",
         },
