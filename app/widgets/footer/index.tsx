@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="flex flex-wrap gap-4 w-full max-w-[1500px]">
         <InitiativeBadge />
 
-        <Logo className="btn btn-ghost text-black-1 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
+        <Logo className="btn btn-ghost text-black-3 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
 
         <p className="font-text text-base font-normal text-neutral-100 mt-2">© Monika Kindergarten Förderverein e.V.</p>
 

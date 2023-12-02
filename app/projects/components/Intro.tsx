@@ -9,10 +9,11 @@ const Intro = () => {
   return (
     <PageLayer className="flex flex-col justify-center mt-10">
       <h1 className="text-7xl text-center font-bold font-title text-sec xl:text-5xl sm:!text-3xl md:!text-4xl">
-        Monika Kindergarten Förderverein. <br /> Projects
+        <span className="inline-block">Monika Kindergarten Förderverein.</span> <br />{" "}
+        <span className="inline-block mt-4">Projects</span>
       </h1>
 
-      <p className="text-xl font-normal font-text text-black text-center mt-16 max-w-[1572px]">{text}</p>
+      <p className="text-xl font-normal font-text text-black text-center mt-8 sm:text-base">{text}</p>
     </PageLayer>
   );
 };
