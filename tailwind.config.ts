@@ -27,9 +27,10 @@ const config: Config = {
         error: "#DD424C",
 
         primary: "#DD424C",
+        "primary-100": "#F8D9DB",
 
-        "secondary-300": "#839CAE",
         "secondary-100": "#E6EBEE",
+        "secondary-300": "#839CAE",
         "secondary-400": "#52748E",
         "secondary-600": "#08395E",
       },

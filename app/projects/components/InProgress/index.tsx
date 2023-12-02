@@ -14,34 +14,57 @@ const InProgress = () => {
         team!
       </p>
 
-      {/* {list.map((item, idx) => (
-        <Item key={idx} {...item} />
-      ))} */}
+      <div className="grid gap-4">
+        <h3 className="font-bold font-title mb-4 text-4xl text-center sm:text-2xl">Urgent</h3>
+
+        <p className="font-text text-xl font-normal text-black sm:text-base mb-4">
+          These initiatives are meant to address urgent problems and have a real effect on the lives of individuals who
+          are less privileged. By making a donation now, you can play a crucial part in assisting us bring these
+          initiatives to life and bringing about great change. Your support will directly help to the accomplishment of
+          these efforts, allowing us to attain our objectives and truly make a difference. With your kind assistance, we
+          can work together to have a profound and long-lasting impact in the lives of African children.
+        </p>
+
+        <div className="flex flex-col gap-10">
+          {list.map((item, idx) => (
+            <Item key={idx} {...item} />
+          ))}
+        </div>
+      </div>
+
+      {/* <div>
+        <h3 className="font-bold font-title mb-4 text-4xl text-center sm:text-2xl">
+          Building and Construction Projects
+        </h3>
+
+        <p className="font-text text-xl font-normal text-black sm:text-base mb-4">
+          We need immediate funds for vital construction projects that will expand partner schools, make them safer, and
+          improve infrastructure. Your donation will directly contribute to creating lasting benefits for students and
+          the community.
+        </p>
+      </div> */}
     </PageLayer>
   );
 };
 
 const list: ItemProps[] = [
   {
-    title: "More than 5000 street kids have received sponsorships to return to school.",
-    images: [
-      "accomplished-1.png?updatedAt=1701490242271",
-      "donation-result-completed-library-2.png?updatedAt=1701231368410",
-    ],
-    text: "With your unwavering support and through our “Back to School Project”, we have been able to get over 5000 children off the streets and back to school. This accomplishment is proof of the potent combination of kindness and collaborative effort. We are giving these kids a chance for a better future by granting them the opportunity to attend school. Their lives have been changed forever by your kindness, which is a strategic effort to ending the cycle of poverty and unlocking doors of opportunity for the children.",
+    image: "donation-result-evening-school.png?updatedAt=1701230760275",
+    amount: {
+      expected: 150_000,
+      raised: 15_000,
+    },
+    title: "School fees funding for street children",
+    text: `Our back-to-school project is aimed at reducing the number of children roaming and hawking on the streets instead of being in school. Yearly, we sponsor between 500 to 1000 children by paying their school fees. Help us to reachout to more by kindly contributing to this cause.`,
   },
   {
-    title: "Regular donation of wheelchairs to those in need.",
-    images: [
-      "donation-result-wheel-chairs.png?updatedAt=1701230760071",
-      "donation-result-completed-library-2.png?updatedAt=1701231368410",
-    ],
-    text: "Because of your kind donations, we have been able to continuously provide wheelchairs to persons in need. These wheelchairs, which permit users to move about their surroundings freely and with respect, have significantly changed the lives of many people. Every donation brings joy, smiles, and fresh possibilities to those whose mobility was previously constrained.",
-  },
-  {
-    title: "Donation of School Blocks",
-    images: ["our-philosophy.jpeg?updatedAt=1701316112948", "accomplished-2.jpeg?updatedAt=1701491547469"],
-    text: "Your contributions over the years have had significant impacts on us. Our partner schools in Nigeria have successfully received new school buildings and basic school supplies for school children from your contributions.",
+    image: "need-1.jpeg?updatedAt=1701524512151",
+    amount: {
+      expected: 150_000,
+      raised: 15_000,
+    },
+    title: "Building of a Special School Block for Inclusive Education",
+    text: `To give kids with hearing impairments the chance to get an appropriate, inclusive education and a chance at a better life, we are currently expanding our school reach programme. We need your support to make this a success`,
   },
 ];
 

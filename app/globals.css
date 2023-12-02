@@ -11,6 +11,10 @@
     @apply text-white
   }
 
+  .btn-primary {
+    @apply text-white
+  }
+
   .btn-outline {
     @apply text-error hover:bg-error hover:text-white
   }
