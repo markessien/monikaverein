@@ -3,16 +3,16 @@ import PageLayer from "@/shared/components/PageLayer";
 import Item, { ItemProps } from "./Item";
 
 const InProgress = () => {
+  const text = `We are currently working on a number of intriguing projects. To assure our success, we are actively looking for
+        donations from kindhearted people like you. As we work to achieve great results, we really appreciate your
+        patience and support. Please pick a cause and make a donation. We're moving forward and succeeding greatly as a
+        team!`;
+
   return (
     <PageLayer className="grid gap-12">
       <Heading42>Projects Currently in Progress</Heading42>
 
-      <p className="text-xl font-normal font-text text-black text-center -mt-8 sm:text-base">
-        We are currently working on a number of intriguing projects. To assure our success, we are actively looking for
-        donations from kindhearted people like you. As we work to achieve great results, we really appreciate your
-        patience and support. Please pick a cause and make a donation. We're moving forward and succeeding greatly as a
-        team!
-      </p>
+      <p className="text-xl font-normal font-text text-black text-center -mt-8 sm:text-base">{text}</p>
 
       <div className="grid gap-4">
         <h3 className="font-bold font-title mb-4 text-4xl text-center sm:text-2xl">Urgent</h3>

@@ -1,6 +1,6 @@
 // "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { sizes as mediaSizes } from "../styles/media";
 // import { useIsomorphicLayoutEffect } from "./useIsomorphicLayoutEffect";
 
@@ -22,7 +22,7 @@ export const useDevice = (config?: Config) => {
     setScreen({ width: window.screen.width, height: window.screen.height });
   };
 
-  useMemo(() => {
+  useEffect(() => {
     handleSize();
 
     window.addEventListener("resize", handleSize);
