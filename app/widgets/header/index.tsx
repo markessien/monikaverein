@@ -7,7 +7,7 @@ import Logo from "../components/Logo";
 
 const Header = () => {
   return (
-    <header className="navbar bg-base-100 px-20 py-5 md:px-5 sticky top-0 z-10">
+    <header className="navbar px-20 py-5 md:px-5 sticky top-0 z-10 bg-white-f9">
       <MobileDropdown />
 
       <div className="navbar-start w-fit">

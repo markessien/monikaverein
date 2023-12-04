@@ -8,7 +8,7 @@ const Slider = () => {
       text: "Partnering with DEMECA, we have been able to donate over 500 wheelchairs to support the physically challenged in Akwa Ibom, a State in the South-South region of Nigeria.",
     },
     {
-      image: "https://ik.imagekit.io/cocroooiz/frontend/donation-result-school-blocks.png?updatedAt=1701230732908",
+      image: "https://ik.imagekit.io/cocroooiz/frontend/donation-result-2.png?updatedAt=1701676961429",
       title: "Donation of school blocks to partner schools in Nigeria",
       text: "Thanks for your support. We were able to provide St. Paul Secondary School and the Monika Kindergarten and Elementary School new classroom blocks and other learning facilities.",
     },

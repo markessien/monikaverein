@@ -29,6 +29,8 @@ const config: Config = {
         primary: "#DD424C",
         "primary-100": "#F8D9DB",
 
+        "white-f9": "#F9F9F9",
+
         "secondary-100": "#E6EBEE",
         "secondary-300": "#839CAE",
         "secondary-400": "#52748E",

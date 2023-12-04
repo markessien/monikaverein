@@ -39,7 +39,7 @@ const list: ItemProps[] = [
     text: "Because of your kind donations, we have been able to continuously provide wheelchairs to persons in need. These wheelchairs, which permit users to move about their surroundings freely and with respect, have significantly changed the lives of many people. Every donation brings joy, smiles, and fresh possibilities to those whose mobility was previously constrained.",
   },
   {
-    title: "Donation of School Blocks",
+    title: "Donation of school blocks",
     images: ["our-philosophy.jpeg?updatedAt=1701316112948", "accomplished-2.jpeg?updatedAt=1701491547469"],
     text: "Your contributions over the years have had significant impacts on us. Our partner schools in Nigeria have successfully received new school buildings and basic school supplies for school children from your contributions.",
   },

@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         ></link>
       </head>
-      <body className={font}>
+      <body className={`${font} bg-white-f9`}>
         <Header />
         {children}
         <Footer />
