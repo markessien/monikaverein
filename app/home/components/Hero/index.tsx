@@ -10,8 +10,8 @@ const Hero = () => {
       <LazyImage
         id="slide1"
         className="carousel-item relative w-full h-full"
-        src="https://ik.imagekit.io/cocroooiz/frontend/tr:w-1920,h-768/ng_children_in_need.jpeg?updatedAt=1701316113455"
-        blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-50,h-50/ng_children_in_need.jpeg?updatedAt=1701316113455"
+        src="https://ik.imagekit.io/cocroooiz/frontend/multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141"
+        blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-50,h-50/multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141"
       />
 
       {/* <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 text-gray-100 md:hidden">
