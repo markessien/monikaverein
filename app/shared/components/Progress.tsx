@@ -10,7 +10,7 @@ type Props = {
 };
 
 const Progress = ({ total, value, className = "", maxWidth, children, Label }: Props) => {
-  const percentage = (value * 100) / total;
+  const percentage = Math.trunc((value * 100) / total);
 
   return (
     <div className="relative flex items-center" style={{ maxWidth, width: "100%" }}>

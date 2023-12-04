@@ -61,7 +61,7 @@ const list: ItemProps[] = [
     image: "need-1.jpeg?updatedAt=1701524512151",
     amount: {
       expected: 150_000,
-      raised: 15_000,
+      raised: 13_000,
     },
     title: "Building of a Special School Block for Inclusive Education",
     text: `To give kids with hearing impairments the chance to get an appropriate, inclusive education and a chance at a better life, we are currently expanding our school reach programme. We need your support to make this a success`,
