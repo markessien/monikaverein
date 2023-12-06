@@ -4,7 +4,7 @@ import AfricaSvg from "./images/AfricaSvg";
 
 const WorkInAfrica = () => {
   return (
-    <PageLayer className="bg-sec h-[648px] md:h-auto overflow-hidden flex gap-8 justify-around items-center md:flex-col relative z-[1] py-10 px-24">
+    <PageLayer className="bg-secondary-600 h-[648px] md:h-auto overflow-hidden flex gap-8 justify-around items-center md:flex-col relative z-[1] py-10 px-24">
       <AfricaSvg className="absolute left-28 -z-[1]" />
 
       <div className="flex flex-col gap-6 justify-center">

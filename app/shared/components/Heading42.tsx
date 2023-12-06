@@ -12,7 +12,9 @@ const Heading42 = ({
   const Tag = tag;
 
   return (
-    <Tag className={`text-[42px] lg:text-4xl sm:!text-3xl font-title font-bold text-sec text-center ${className}`}>
+    <Tag
+      className={`text-[42px] lg:text-4xl sm:!text-3xl font-title font-bold text-secondary-600 text-center ${className}`}
+    >
       {children}
     </Tag>
   );

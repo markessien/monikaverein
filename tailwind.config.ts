@@ -22,7 +22,7 @@ const config: Config = {
         "black-1": "#111",
         "black-3": "#363636",
 
-        sec: "#08395E",
+        // sec: "#08395E", // to be deleted!
 
         error: "#DD424C",
 
@@ -34,7 +34,9 @@ const config: Config = {
         "secondary-100": "#E6EBEE",
         "secondary-300": "#839CAE",
         "secondary-400": "#52748E",
+        "secondary-500": "#204C6E",
         "secondary-600": "#08395E",
+        "secondary-900": "#042238",
       },
       screens: {
         // Max Breakpoints

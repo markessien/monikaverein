@@ -4,6 +4,9 @@ import Waitlist from "@/shared/components/Waitlist";
 import Hero from "./components/Hero";
 import IntroText from "./components/IntroText";
 import OurMission from "./components/OurMission";
+import OurVision from "./components/OurVision";
+import WorkInAfrica from "@/shared/components/WorkInAfrica";
+import CoreValues from "./components/CoreValues";
 
 const Page = () => {
   return (
@@ -11,6 +14,9 @@ const Page = () => {
       <Hero />
       <IntroText />
       <OurMission />
+      <OurVision />
+      <WorkInAfrica />
+      <CoreValues />
       <WorkTogether />
       <ContactInfo />
       <Waitlist />

@@ -17,7 +17,7 @@ const Hero = () => {
 };
 
 const StyledLayer = styled(PageLayer)`
-  height: clamp(260px, 100%, 602px);
+  height: clamp(200px, 45vw, 602px);
 `;
 
 export default Hero;
