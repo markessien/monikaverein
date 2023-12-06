@@ -1,5 +1,13 @@
-const AuctionGoal = ({ className }: { className?: string }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" className={className} width={23} height={23} fill="none">
+const AuctionGoal = ({
+  className,
+  width = 23,
+  height = 23,
+}: {
+  className?: string;
+  width?: number;
+  height?: number;
+}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" className={className} width={width} height={height} fill="none">
     <path
       d="M18.73 6.792h-1.7l-4.169 4.167a1.71 1.71 0 1 1-.968-.968l4.168-4.168V4.124c0-.227.09-.445.251-.606l1.58-1.58a.228.228 0 0 1 .386.117l.42 2.101 2.1.42a.227.227 0 0 1 .176.28.227.227 0 0 1-.06.105l-1.58 1.58a.856.856 0 0 1-.605.251Z"
       fill="currentColor"

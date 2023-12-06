@@ -22,13 +22,16 @@ const config: Config = {
         "black-1": "#111",
         "black-3": "#363636",
 
-        // sec: "#08395E", // to be deleted!
+        // sec: "#08395E", // To Do: delete this
 
         error: "#DD424C",
 
-        primary: "#DD424C",
-        "primary-100": "#F8D9DB",
+        primary: "#DD424C", // To Do: search and rename to primary-600
 
+        "primary-100": "#F8D9DB",
+        "primary-600": "#DD424C",
+
+        "white-f8": "#F8F8F8",
         "white-f9": "#F9F9F9",
 
         "secondary-100": "#E6EBEE",
