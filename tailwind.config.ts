@@ -40,6 +40,8 @@ const config: Config = {
         "secondary-500": "#204C6E",
         "secondary-600": "#08395E",
         "secondary-900": "#042238",
+
+        "neutral-01": "#F3F4F8",
       },
       screens: {
         // Max Breakpoints

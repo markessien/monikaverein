@@ -7,7 +7,7 @@ const ContactInfo = () => {
     <PageLayer className="flex flex-col gap-10">
       <Heading42>For more information about our organization</Heading42>
 
-      <div className="flex justify-between items-center flex-wrap gap-14 max-w-7xl mx-auto w-full">
+      <div className="flex justify-between items-center xl:flex-col xl:justify-center gap-14 max-w-7xl mx-auto w-full">
         <Item
           image="https://ik.imagekit.io/cocroooiz/frontend/christiana-sow.png?updatedAt=1701315798667"
           name="Christiana Sow"
