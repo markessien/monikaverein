@@ -9,7 +9,7 @@ const DonationImpact = () => {
 
       <div className="flex gap-8 lg:flex-wrap mt-3">
         <p className="text-xl font-text font-normal text-left w-[65%] lg:w-full mx-auto sm:text-lg">
-          The impact of people's donations over the years can be far-reaching and transformative. Through consistent and
+          {`The impact of people's donations over the years can be far-reaching and transformative. Through consistent and
           generous contributions, individuals can help support various causes, such as education, healthcare,
           environmental conservation, poverty alleviation, and more. Over time, these collective donations can
           accumulate to fund crucial initiatives, build infrastructure, provide essential resources, and create
@@ -19,7 +19,7 @@ const DonationImpact = () => {
           difference in the world. Moreover, charitable contributions can help rebuild communities after natural
           disasters, empower marginalized groups, support artistic and cultural endeavors, and promote social justice
           initiatives. The collective effect of these donations over time can bring about long-lasting change, create
-          opportunities, and inspire hope for a better future.
+          opportunities, and inspire hope for a better future.`}
         </p>
 
         <AccountCard />

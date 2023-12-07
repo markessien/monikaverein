@@ -9,7 +9,7 @@ const DonateCompany = () => {
           Donate as a company
         </h2>
         <p className="text-3xl xl:text-xl text-secondary-800 max-w-[819px] xl:max-w-[519px] mt-8 mb-4 font-title font-bold">
-          Join forces with us through your corporate donation, and together let's enhance the lives of children
+          {`Join forces with us through your corporate donation, and together let's enhance the lives of children`}
         </p>
         <button className="btn btn-primary">Donate Now</button>
       </div>
