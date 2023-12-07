@@ -1,6 +1,5 @@
 import Heading42 from "@/shared/components/Heading42";
 import PageLayer from "@/shared/components/PageLayer";
-import { ItemProps } from "./components/Item";
 import Collection from "./components/Collection";
 
 const InProgress = () => {

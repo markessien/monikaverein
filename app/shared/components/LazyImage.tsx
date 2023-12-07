@@ -1,19 +1,20 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { CSSProperties, useEffect, useRef, useState } from "react";
 
 type Props = {
   src?: string;
   id?: string;
   className?: string;
   blur?: string;
+  style?: CSSProperties;
   // callback?: {
   //   md?: () => string;
   //   sm?: () => string;
   // };
 };
 
-const LazyImage = ({ src = "", className = "", blur = "", id }: Props) => {
+const LazyImage = ({ src = "", className = "", blur = "", id, style }: Props) => {
   const divRef = useRef<HTMLDivElement>(null);
   const [mountLazy, setMountLazy] = useState(true);
 
@@ -62,7 +63,7 @@ const LazyImage = ({ src = "", className = "", blur = "", id }: Props) => {
   const lazyClassNames = `absolute left-0 top-0 w-full h-full transition-opacity duration-500 ease-in-out opacity-1 j-loader`;
 
   return (
-    <div ref={divRef} id={id} className={`relative ${className}`}>
+    <div ref={divRef} id={id} className={`relative ${className}`} style={style}>
       <img src={src} alt="" className="w-full h-full opacity-0" loading="lazy" />
 
       {mountLazy && (

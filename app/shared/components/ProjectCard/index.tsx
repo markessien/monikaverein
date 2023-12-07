@@ -1,9 +1,14 @@
 import LazyImage from "@/shared/components/LazyImage";
 import ProgressBar from "./ProgressBar";
 
-export type ItemProps = { title: string; text: string; image: string; amount: { expected: number; raised: number } };
+export type ProjectCardProps = {
+  title: string;
+  text: string;
+  image: string;
+  amount: { expected: number; raised: number };
+};
 
-const Item = ({ title, text, image, amount: { expected, raised } }: ItemProps) => {
+const ProjectCard = ({ title, text, image, amount: { expected, raised } }: ProjectCardProps) => {
   const root = "https://ik.imagekit.io/cocroooiz/frontend/";
 
   return (
@@ -42,4 +47,4 @@ const Item = ({ title, text, image, amount: { expected, raised } }: ItemProps) =
   );
 };
 
-export default Item;
+export default ProjectCard;

@@ -1,6 +1,6 @@
-import Item, { ItemProps } from "./Item";
+import ProjectCard, { ProjectCardProps } from "@/shared/components/ProjectCard";
 
-type Props = { title: string; text: string; list: ItemProps[] };
+type Props = { title: string; text: string; list: ProjectCardProps[] };
 
 const Collection = ({ title, text, list }: Props) => {
   return (
@@ -11,7 +11,7 @@ const Collection = ({ title, text, list }: Props) => {
 
       <div className="flex flex-col gap-10">
         {list.map((item, idx) => (
-          <Item key={idx} {...item} />
+          <ProjectCard key={idx} {...item} />
         ))}
       </div>
     </div>
