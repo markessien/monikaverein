@@ -63,7 +63,7 @@ const LazyImage = ({ src = "", className = "", blur = "", id, style }: Props) =>
   const lazyClassNames = `absolute left-0 top-0 w-full h-full transition-opacity duration-500 ease-in-out opacity-1 j-loader`;
 
   return (
-    <div ref={divRef} id={id} className={`relative ${className}`} style={style}>
+    <div ref={divRef} id={id} className={`relative overflow-hidden ${className}`} style={style}>
       <img src={src} alt="" className="w-full h-full opacity-0" loading="lazy" />
 
       {mountLazy && (

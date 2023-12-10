@@ -1,4 +1,5 @@
 import ContactInfo from "@/shared/components/ContactInfo";
+import Waitlist from "@/shared/components/Waitlist";
 import ExecutiveTeam from "./components/ExecutiveTeam";
 import Hero from "./components/Hero";
 import MembersVolunteers from "./components/MembersVolunteers";
@@ -18,6 +19,7 @@ const Page = () => {
       <MembersVolunteers />
       <Partners />
       <ContactInfo />
+      <Waitlist />
     </main>
   );
 };
