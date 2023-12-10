@@ -1,4 +1,8 @@
 import LazyImage from "@/shared/components/LazyImage";
+import Instagram from "@/about/shared/icons/Instagram";
+import Twitter from "@/about/shared/icons/Twitter";
+import Linkedin from "@/about/shared/icons/Linkedin";
+import Social from "@/about/shared/components/Social";
 
 export type ItemProps = {
   pic: string;
@@ -23,12 +27,18 @@ const Item = ({ pic, name, role, bio, linkedin, twitter, instagram }: ItemProps)
         blur={blurRoot + pic}
       />
 
-      <p className="text-3xl font-title font-bold mt-4">{name}</p>
+      <p className="text-3xl font-title font-bold mt-4 sm:text-2xl">{name}</p>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-wrap gap-2">
         <p className="text-2xl font-title font-normal" style={{ fontWeight: "200" }}>
           {role}
         </p>
+
+        <div className="flex gap-2 items-center">
+          <Social icon={<Instagram />} link={instagram} />
+          <Social icon={<Twitter />} link={twitter} />
+          <Social icon={<Linkedin />} link={linkedin} />
+        </div>
       </div>
 
       <div className="h-[1px] bg-[#B6B6B6] my-4"></div>
