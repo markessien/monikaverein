@@ -6,7 +6,7 @@ import Footer from "./widgets/footer";
 
 const oswald = Oswald({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["200", "400", "700"],
   variable: "--font-oswald",
 });
 

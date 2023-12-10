@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import OurGoals from "./components/OurGoals";
 import OurHistory from "./components/OurHistory";
+import TheBoard from "./components/TheBoard";
 
 const Page = () => {
   return (
@@ -8,6 +9,7 @@ const Page = () => {
       <Hero />
       <OurHistory />
       <OurGoals />
+      <TheBoard />
     </main>
   );
 };
