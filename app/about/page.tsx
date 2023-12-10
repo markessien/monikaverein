@@ -1,3 +1,4 @@
+import ExecutiveTeam from "./components/ExecutiveTeam";
 import Hero from "./components/Hero";
 import OurGoals from "./components/OurGoals";
 import OurHistory from "./components/OurHistory";
@@ -10,6 +11,7 @@ const Page = () => {
       <OurHistory />
       <OurGoals />
       <TheBoard />
+      <ExecutiveTeam />
     </main>
   );
 };
