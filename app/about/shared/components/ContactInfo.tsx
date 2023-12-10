@@ -15,9 +15,9 @@ export type ContactInfoProps = {
 const ContactInfo = ({ name, role, instagram, twitter, linkedin, className = "" }: ContactInfoProps) => {
   return (
     <div className={className}>
-      <p className="text-3xl font-title font-bold mt-4 sm:text-2xl">{name}</p>
+      <p className="text-3xl font-title font-bold sm:text-2xl">{name}</p>
 
-      <div className="flex justify-between flex-wrap gap-2">
+      <div className="flex justify-between flex-wrap gap-2 w-full">
         <p className="text-2xl font-title font-normal" style={{ fontWeight: "200" }}>
           {role}
         </p>

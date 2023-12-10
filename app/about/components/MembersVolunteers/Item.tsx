@@ -8,15 +8,14 @@ const Item = ({ pic, ...contactInfo }: ItemProps) => {
   const blurRoot = root + "tr:w-50,h-50/";
 
   return (
-    <div style={{ maxWidth: "431px" }}>
+    <div className="flex gap-6 max-w-[436px] w-full bg-neutral-01 rounded-md p-4">
       <LazyImage
-        style={{ height: "clamp(260px, 50vw, 419px)" }}
-        className="mb-4"
+        className="w-[100px] h-[100px] rounded-full overflow-hidden"
         src={root + "tr:w-431,h-419/" + pic}
         blur={blurRoot + pic}
       />
 
-      <ContactInfo className="grid gap-1" {...contactInfo} />
+      <ContactInfo className="flex flex-col gap-1 justify-between  flex-grow" {...contactInfo} />
     </div>
   );
 };
