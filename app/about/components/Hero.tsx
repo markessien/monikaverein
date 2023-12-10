@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <PageLayer
       className="!p-0 relative flex justify-center items-center"
-      style={{ height: "clamp(200px, 45vw, 768px)" }}
+      style={{ height: "clamp(260px, 50vw, 768px)" }}
     >
       <LazyImage
         className="w-full h-full"

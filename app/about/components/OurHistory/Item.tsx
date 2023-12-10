@@ -2,6 +2,8 @@ import LazyImage from "@/shared/components/LazyImage";
 
 export type ItemProps = { title: string; text: string; images: [string, string] };
 
+//height: "clamp(260px, 50vw, 385px)"
+
 const Item = ({ title, text, images }: ItemProps) => {
   const root = "https://ik.imagekit.io/cocroooiz/frontend/";
   return (
@@ -10,12 +12,12 @@ const Item = ({ title, text, images }: ItemProps) => {
 
       <p className="font-text text-xl font-normal text-black sm:text-base mb-4">{text}</p>
 
-      <div className="flex gap-6 justify-between h-[393px]  lg:h-auto md:flex-wrap">
+      <div className="grid grid-cols-2 md:grid-cols-1 gap-8">
         {images.map((img, idx) => (
           <LazyImage
             key={img + idx}
             // className="w-full max-w-[776px]"
-            style={{ height: "clamp(200px, 45vw, 385px)", width: "min(100%, 776px)" }}
+            style={{ height: "clamp(260px, 50vw, 385px)", maxWidth: "776px" }}
             src={root + img}
             blur={root + "tr:w-50,h-50/" + img}
           />
