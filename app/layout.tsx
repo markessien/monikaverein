@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "./widgets/header";
 import Footer from "./widgets/footer";
 
@@ -28,6 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
         <Footer />
+
+        <SpeedInsights />
       </body>
     </html>
   );

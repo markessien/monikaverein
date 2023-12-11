@@ -12,12 +12,12 @@ const Partners = () => {
           <h3 className="font-title font-bold text-2xl sm:text-xl mb-4">Who we work with</h3>
 
           <p className="text-xl font-text font-normal sm:text-base">
-            In order to improve people's living conditions, the level of education must be improved. This starts at a
+            {`In order to improve people's living conditions, the level of education must be improved. This starts at a
             young age. Hence the decision to found a kindergarten. In 1981 this bungalow is rented. It can accommodate 4
             group rooms. In the beginning, 2 educators will be hired and trained. In the first quarter, 20 children
             register. In the second quarter there are already more than 40 children and 5 employees. The number of
             children is constantly growing. New teachers and other employees are hired. There is a lot to do – in
-            kindergarten and in the family
+            kindergarten and in the family`}
           </p>
         </div>
 
