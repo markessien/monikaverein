@@ -18,6 +18,14 @@
   .btn-outline {
     @apply text-error hover:bg-error hover:text-white
   }
+
+  .text-4xl {
+    @apply font-bold font-title
+  }
+
+  .text-xl {
+    @apply font-normal font-text
+  }
 }
 
 :root {

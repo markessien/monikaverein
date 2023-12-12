@@ -13,6 +13,18 @@ const config: Config = {
         active: 'active="true"',
       },
 
+      animation: {
+        fade: "fade 0.5s linear",
+        // "pulse-once": "pulse 0.5s linear",
+      },
+
+      keyframes: {
+        fade: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+
       colors: {
         "gray-1": "#333",
         "gray-2": "#737373",
