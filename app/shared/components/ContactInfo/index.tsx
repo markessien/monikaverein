@@ -40,14 +40,18 @@ const Item = ({
   phone: string;
   email: string;
 }) => (
-  <div className="flex gap-8 sm:flex-col sm:mx-auto">
-    <LazyImage src={image} className="rounded-full overflow-hidden w-[267px] h-[267px]" />
+  <div className="flex gap-8 sm:flex-col sm:items-center sm:gap-3 sm:mx-auto">
+    <LazyImage
+      src={image}
+      className="rounded-full overflow-hidden"
+      style={{ width: "clamp(200px, 45vw, 267px)", height: "clamp(200px, 45vw, 267px)" }}
+    />
 
     <div className="flex flex-col justify-center gap-0 sm:items-center">
-      <h2 className="text-3xl font-bold text-black font-title m-0 mb-4">{name}</h2>
-      <h3 className="text-xl font-bold font-title m-0 text-black">{country}</h3>
-      <p className="text-xl font-text font-normal m-0">Phone: {phone}</p>
-      <p className="text-xl font-text font-normal m-0">{email}</p>
+      <h2 className="text-3xl font-bold text-black font-title sm:text-xl sm:font-bold m-0 mb-4 sm:mb-1">{name}</h2>
+      <h3 className="text-xl !font-bold !font-title m-0 text-black sm:text-lg">{country}</h3>
+      <p className="text-xl font-text font-normal m-0 sm:text-base">Phone: {phone}</p>
+      <p className="text-xl font-text font-normal m-0 sm:text-base">{email}</p>
     </div>
   </div>
 );

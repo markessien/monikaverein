@@ -24,11 +24,15 @@ const Footer = () => {
       <div className="border-b border-solid border-secondary-100 w-full"></div>
 
       <div className="flex flex-wrap gap-4 w-full max-w-[1500px]">
-        <InitiativeBadge />
+        <div className="flex sm:order-5">
+          <InitiativeBadge />
 
-        <Logo className="btn btn-ghost text-black-3 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
+          <Logo className="btn btn-ghost text-black-3 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
+        </div>
 
-        <p className="font-text text-base font-normal text-neutral-100 mt-2">© Monika Kindergarten Förderverein e.V.</p>
+        <p className="font-text text-base font-normal text-neutral-100 mt-2 sm:order-10">
+          © Monika Kindergarten Förderverein e.V.
+        </p>
 
         <div className="flex gap-6 ml-auto mr-40 xl:mr-0 md:ml-0">
           <Social icon={<Medium />} />
@@ -42,7 +46,7 @@ const Footer = () => {
 };
 
 const Aboutus: LinkProps[] = [
-  { type: "link", name: "Our history", href: "" },
+  { type: "link", name: "Our history", href: "/about" },
   { type: "link", name: "Our goals", href: "" },
   { type: "link", name: "Our organization", href: "" },
   { type: "link", name: "Our partners", href: "" },

@@ -12,7 +12,7 @@ export const NavItem = ({ name, href }: NavItemProps) => {
   return (
     <Link
       href={href}
-      className="text-2xl sm:text-xl font-title uppercase font-normal text-gray-1 data-active:text-primary data-active:font-bold data-active:underline data-active:underline-offset-4"
+      className="text-2xl sm:text-lg !font-title uppercase !font-normal text-gray-1 data-active:text-primary data-active:font-bold data-active:underline data-active:underline-offset-4"
       data-active={isActive}
     >
       {name}

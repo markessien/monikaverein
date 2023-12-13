@@ -13,7 +13,7 @@ const Heading42 = ({
 
   return (
     <Tag
-      className={`text-[42px] lg:text-4xl sm:!text-2xl font-title font-bold text-secondary-600 text-center ${className}`}
+      className={`text-[42px] lg:text-4xl sm:!text-3xl !font-title !font-bold text-secondary-600 text-center ${className}`}
     >
       {children}
     </Tag>

@@ -43,7 +43,7 @@ const Item = ({ title, text, image }: Props) => {
   return (
     <div className="w-[424px] sm:w-full sm:max-w-[280px] ">
       <LazyImage style={{ height: "clamp(160px, 45vw, 300px)" }} src={image} />
-      <h3 className="text-2xl sm:text-xl font-title font-bold my-4">{title}</h3>
+      <h3 className="text-2xl sm:text-xl !font-title !font-bold my-4">{title}</h3>
       <p className="text-xl sm:text-base font-text text-black">{text}</p>
     </div>
   );

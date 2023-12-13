@@ -1,9 +1,5 @@
-import { ReactNode } from "react";
 import Heading42 from "../Heading42";
 import PageLayer from "../PageLayer";
-import FundRaising from "./images/FundRaising";
-import Volunteering from "./images/Volunteering";
-import Giving from "./images/Giving";
 import LazyImage from "../LazyImage";
 
 const WorkTogether = () => {

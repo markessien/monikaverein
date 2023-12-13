@@ -6,7 +6,7 @@ const SupportProject = () => {
     <PageLayer className="flex flex-col gap-3 relative -mt-20" tag="section">
       <DollarLabel />
 
-      <Heading42 className="heading-42 mt-5">Support Our Back to School Project</Heading42>
+      <Heading42 className="heading-42 mt-5">Support our back to school project</Heading42>
 
       <p className="text-center text-xl font-text max-w-[962px] mx-auto">
         With just $20, you can help get 1,000 children off the streets and back to school by paying their tuition and

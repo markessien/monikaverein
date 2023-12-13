@@ -3,8 +3,8 @@ import PageLayer from "../PageLayer";
 
 const Waitlist = () => {
   return (
-    <PageLayer className="flex flex-col justify-center items-center gap-6 h-[331px] bg-neutral-100">
-      <h2 className="text-2xl font-bold font-title text-secondary-400 text-center max-w-[930px] mb-6">
+    <PageLayer className="flex flex-col justify-center items-center gap-6 h-[331px] bg-neutral-200">
+      <h2 className="text-2xl sm:text-lg !font-bold !font-title text-secondary-400 text-center max-w-[930px] mb-6">
         Join our community to stay connected. Be among the first to hear about our projects and work.
       </h2>
 

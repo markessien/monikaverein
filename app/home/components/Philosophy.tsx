@@ -2,9 +2,9 @@ import LazyImage from "@/shared/components/LazyImage";
 
 const Philosophy = () => {
   return (
-    <section className="relative h-[768px] max-h-[768px] lg:max-h-[350px] sm:!max-h-[300px]">
+    <section className="relative" style={{ height: "clamp(400px, 50vw, 768px)" }}>
       <LazyImage
-        className="h-full"
+        className="h-full [&>img]:brightness-75"
         src="https://ik.imagekit.io/cocroooiz/frontend/tr:w-1920,h-768/our-philosophy.jpeg?updatedAt=1701316112948"
         blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-60,h-50/our-philosophy.jpeg?updatedAt=1701316112948"
       />
