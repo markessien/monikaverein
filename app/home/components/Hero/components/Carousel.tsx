@@ -48,6 +48,8 @@ const Carousel = ({ images, id }: { images: string[]; id: string }) => {
 
       adjustFromStart();
     }
+
+    // eslint-disable-next-line
   }, [current, forward]);
 
   return (
