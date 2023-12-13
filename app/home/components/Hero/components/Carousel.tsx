@@ -1,8 +1,10 @@
 "use client";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import LazyImage from "@/shared/components/LazyImage";
 import { useCarouselPos } from "../data";
 import { useEffect, useRef } from "react";
+// import { Carousel as ReactCarousel } from "react-responsive-carousel";
 
 const Carousel = ({ images, id }: { images: string[]; id: string }) => {
   const Min = 0;
@@ -52,16 +54,19 @@ const Carousel = ({ images, id }: { images: string[]; id: string }) => {
     // eslint-disable-next-line
   }, [current, forward]);
 
+  // return (
+  //   <ReactCarousel className="h-full w-full -z-[1]" stopOnHover={false} showThumbs={false} infiniteLoop autoPlay>
+  //     {images.map((img, idx) => (
+  //       <SliderItem key={idx} idx={idx} image={img} id={id} />
+  //     ))}
+  //   </ReactCarousel>
+  // );
+
   return (
     <div className="carousel absolute h-full w-full -z-[1]" ref={ref}>
       {images.map((img, idx) => (
         <SliderItem key={idx} idx={idx} image={img} id={id} />
       ))}
-
-      <div className="absolute transform -translate-y-1/2 left-36 top-[55%] text-6xl text-black font-bold lg:text-3xl sm:hidden">
-        <p className="p-7 bg-white w-fit rounded lg:p-4">Nigerian</p>
-        <p className="p-7 bg-white w-fit rounded ml-10 mt-3 text-error lg:p-4">Children in Need</p>
-      </div>
     </div>
   );
 };
