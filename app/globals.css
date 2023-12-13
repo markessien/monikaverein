@@ -4,7 +4,7 @@
 
 @layer components {
   .btn {
-    @apply font-inter font-normal text-xl sm:text-base
+    @apply font-inter font-normal text-xl sm:text-base h-[48px] sm:h-[40px] min-h-[auto]
   }
 
   .btn-error {
@@ -16,7 +16,7 @@
   }
 
   .btn-outline {
-    @apply text-error hover:bg-error hover:text-white
+    @apply text-error hover:bg-error hover:text-white sm:text-base
   }
 
   .text-4xl {
@@ -34,7 +34,8 @@
 }
 
 body {
-  font-family: var(--font-oswald)
+  font-family: var(--font-oswald);
+  font-size: 16px;
 }
 
 /* @media (prefers-color-scheme: dark) {} */

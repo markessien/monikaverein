@@ -1,27 +1,21 @@
-import LazyImage from "@/shared/components/LazyImage";
-// import ArrowLeft from "./icons/ArrowLeft";
-// import ArrowRight from "./icons/ArrowRight";
+import Controllers from "./components/Controllers";
+import Carousel from "./components/Carousel";
+
+const images = [
+  "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141",
+  "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141",
+  "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141",
+  "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141",
+];
+
+const id = "slide";
 
 const Hero = () => {
-  // useDevice();
-
   return (
-    <section className="carousel w-full relative h-[768px] max-h-[768px] lg:max-h-[350px] sm:!max-h-[200px]">
-      <LazyImage
-        id="slide1"
-        className="carousel-item relative w-full h-full"
-        src="https://ik.imagekit.io/cocroooiz/frontend/multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141"
-        blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-50,h-50/multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141"
-      />
+    <section className="w-full relative z-[1]" style={{ height: "clamp(400px, 50vw,768px)" }}>
+      <Controllers start={0} end={images.length - 1} id={id} />
 
-      {/* <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 text-gray-100 md:hidden">
-        <a href="#slide4" className="btn btn-ghost h-fit p-0">
-          <ArrowLeft />
-        </a>
-        <a href="#slide2" className="btn btn-ghost h-fit  p-0">
-          <ArrowRight />
-        </a>
-      </div> */}
+      <Carousel images={images} id={id} />
 
       <div className="absolute transform -translate-y-1/2 left-36 top-[55%] text-6xl text-black font-bold lg:text-3xl sm:hidden">
         <p className="p-7 bg-white w-fit rounded lg:p-4">Nigerian</p>

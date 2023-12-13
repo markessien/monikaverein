@@ -7,16 +7,14 @@ const MakeDonation = () => {
     <PageLayer className="flex flex-col gap-3" tag="section">
       <Heading42 className="heading-42 mt-5">Your donation makes a difference</Heading42>
 
-      <p className="text-center text-xl font-text max-w-[962px] mx-auto">
+      <p className="text-xl sm:text-base font-text text-center mb-9">
         Your priceless support plays an important and crucial role in our unrelenting pursuit of making a real
         difference.
       </p>
 
       <Slider />
 
-      <button className="btn btn-outline text-error text-xl font-inter font-normal w-fit mx-auto mt-5">
-        Learn More
-      </button>
+      <button className="btn btn-outline w-fit mx-auto mt-5">Learn More</button>
     </PageLayer>
   );
 };

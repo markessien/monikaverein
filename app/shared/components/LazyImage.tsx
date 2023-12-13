@@ -8,18 +8,12 @@ type Props = {
   className?: string;
   blur?: string;
   style?: CSSProperties;
-  // callback?: {
-  //   md?: () => string;
-  //   sm?: () => string;
-  // };
+  imageClassName?: string;
 };
 
-const LazyImage = ({ src = "", className = "", blur = "", id, style }: Props) => {
+const LazyImage = ({ src = "", className = "", blur = "", id, style, imageClassName }: Props) => {
   const divRef = useRef<HTMLDivElement>(null);
   const [mountLazy, setMountLazy] = useState(true);
-
-  // if (device.md && callback.md) src = callback.md();
-  // if (device.sm && callback.sm) src = callback.sm();
 
   useEffect(() => {
     const el = divRef.current;
@@ -64,13 +58,13 @@ const LazyImage = ({ src = "", className = "", blur = "", id, style }: Props) =>
 
   return (
     <div ref={divRef} id={id} className={`relative overflow-hidden ${className}`} style={style}>
-      <img src={src} alt="" className="w-full h-full opacity-0" loading="lazy" />
+      <img src={src} alt="" className="w-full h-full opacity-0 object-cover" loading="lazy" />
 
       {mountLazy && (
         <div className={`${lazyClassNames} z-[1] skeleton rounded-none ${blur ? "bg-transparent" : ""} `}></div>
       )}
 
-      {mountLazy && blur && <img src={blur} alt="" className={`blur-lg  ${lazyClassNames}`} />}
+      {mountLazy && blur && <img src={blur} alt="" className={`blur-lg object-cover ${lazyClassNames}`} />}
     </div>
   );
 };

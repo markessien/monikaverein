@@ -19,7 +19,7 @@ const SupportProject = () => {
 };
 
 const DollarLabel = () => (
-  <div className="rounded bg-white p-4 absolute left-[45%] -top-20 lg:left-1/2 lg:-translate-x-1/2 sm:hidden">
+  <div className="rounded bg-neutral-100 p-4 absolute left-[45%] -top-20 lg:left-1/2 lg:-translate-x-1/2 sm:hidden">
     <span className="text-secondary-600 text-4xl font-bold border border-solid border-secondary-300 bg-neutral-100 p-2 w-40 inline-block text-center rounded font-text">
       $20
     </span>
