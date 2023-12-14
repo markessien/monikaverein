@@ -15,6 +15,8 @@ const config: Config = {
 
       animation: {
         fade: "fade 0.5s linear",
+        slideIn: "slideIn 1s linear",
+        slideOut: "slideOut 0.5s linear",
         // "pulse-once": "pulse 0.5s linear",
       },
 
@@ -24,8 +26,8 @@ const config: Config = {
           "100%": { opacity: "1" },
         },
         slideIn: {
-          "0%": { translateX: "100%" },
-          "100%": { translateX: "0" },
+          "0%": { translate: "0 -100vw" },
+          "100%": { translate: "0 0" },
         },
         slideOut: {
           "0%": { translateX: "0" },

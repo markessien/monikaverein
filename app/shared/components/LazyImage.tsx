@@ -1,6 +1,7 @@
 "use client";
 
 import { CSSProperties, useEffect, useRef, useState } from "react";
+import { twMerge } from "tailwind-merge";
 
 type Props = {
   src?: string;
@@ -57,7 +58,7 @@ const LazyImage = ({ src = "", className = "", blur = "", id, style, imageClassN
   const lazyClassNames = `absolute left-0 top-0 w-full h-full transition-opacity duration-500 ease-in-out opacity-1 j-loader`;
 
   return (
-    <div ref={divRef} id={id} className={`relative overflow-hidden ${className}`} style={style}>
+    <div ref={divRef} id={id} className={twMerge("relative overflow-hidden", className)} style={style}>
       <img src={src} alt="" className="w-full h-full opacity-0 object-cover" loading="lazy" />
 
       {mountLazy && (

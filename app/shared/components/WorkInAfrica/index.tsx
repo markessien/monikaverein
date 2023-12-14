@@ -18,7 +18,7 @@ const WorkInAfrica = () => {
       </div>
 
       <LazyImage
-        className="absolute md:relative rounded-full overflow-hidden"
+        className="rounded-full overflow-hidden"
         style={{ height: "clamp(260px, 47vw, 538px)", width: "clamp(260px, 50vw, 538px)" }}
         src="https://ik.imagekit.io/cocroooiz/frontend/hand-shake.png?updatedAt=1701315798675"
       />

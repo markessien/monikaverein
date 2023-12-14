@@ -3,6 +3,7 @@
 import ArrowLeft from "../icons/ArrowLeft";
 import ArrowRight from "../icons/ArrowRight";
 import { useCarouselPos } from "../data";
+import { useEffect } from "react";
 
 const Controllers = ({ start, end, id }: { start: number; end: number; id: string }) => {
   const [posData, setPosData] = useCarouselPos();
@@ -13,6 +14,16 @@ const Controllers = ({ start, end, id }: { start: number; end: number; id: strin
 
   const prevSlide = `#${id}${prev}`;
   const nextSlide = `#${id}${next}`;
+
+  useEffect(() => {
+    const id = setTimeout(() => {
+      setPosData(next, true);
+    }, 3000);
+
+    return () => {
+      clearTimeout(id);
+    };
+  }, [next]);
 
   return (
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 text-gray-100 md:hidden">
