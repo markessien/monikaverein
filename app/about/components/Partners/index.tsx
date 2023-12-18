@@ -4,7 +4,7 @@ import LazyImage from "@/shared/components/LazyImage";
 
 const Partners = () => {
   return (
-    <PageLayer>
+    <PageLayer id="partners">
       <Heading42 className="mb-10">Our Partnerships: who we work with</Heading42>
 
       <div className="grid grid-cols-2 gap-10 lg:grid-cols-1 justify-items-center">

@@ -28,6 +28,11 @@
   }
 }
 
+html {
+  /* scroll-behavior: smooth; */
+  scroll-padding-block-start: 96px;
+}
+
 :root {
   --font-inter: 'Inter', sans-serif;
   --font-lato: 'Lato', sans-serif;

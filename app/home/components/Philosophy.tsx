@@ -1,4 +1,6 @@
 import LazyImage from "@/shared/components/LazyImage";
+import { AppRoutes } from "@/shared/utilities/routes";
+import Link from "next/link";
 
 const Philosophy = () => {
   return (
@@ -16,7 +18,9 @@ const Philosophy = () => {
         <p className=" text-white text-[42px] lg:text-4xl sm:!text-2xl">
           Together, we can help African children get quality Education.
         </p>
-        <button className="btn btn-error text-white w-fit text-xl font-inter font-normal">Learn More</button>
+        <Link href={AppRoutes.Philosophy} className="btn btn-error text-white w-fit text-xl font-inter font-normal">
+          Learn More
+        </Link>
       </div>
     </section>
   );

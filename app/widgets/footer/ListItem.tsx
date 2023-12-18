@@ -1,4 +1,5 @@
 import GPS from "@/shared/icons/GPS";
+import Link from "next/link";
 
 type ListItemProps = {
   title: string;
@@ -20,9 +21,13 @@ const ListItem = ({ title, links }: ListItemProps) => {
         if (item.type === "location") return <LocationItem key={item.address + idx} {...item} />;
 
         return (
-          <a key={item.name + idx} className="text-xl sm:text-base !font-title !font-normal text-neutral-100">
+          <Link
+            href={item.href}
+            key={item.name + idx}
+            className="text-xl sm:text-base !font-title !font-normal text-neutral-100"
+          >
             {item.name}
-          </a>
+          </Link>
         );
       })}
     </div>

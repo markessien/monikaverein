@@ -5,12 +5,13 @@ type Props = {
   className?: string;
   tag?: "section" | "div" | "header" | "footer";
   style?: CSSProperties;
+  id?: string;
 };
 
-const PageLayer = ({ children, tag = "section", className = "", style }: Props) => {
+const PageLayer = ({ children, tag = "section", className = "", id, style }: Props) => {
   const Tag = tag;
   return (
-    <Tag className={`max-w-[1572px] w-full mx-auto md:px-5 px-6 ${className}`} style={style}>
+    <Tag className={`max-w-[1572px] w-full mx-auto md:px-5 px-6 ${className}`} id={id} style={style}>
       {children}
     </Tag>
   );

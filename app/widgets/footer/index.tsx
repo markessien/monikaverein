@@ -1,12 +1,13 @@
 import PageLayer from "@/shared/components/PageLayer";
 import ListItem, { LinkProps } from "./ListItem";
 import InitiativeBadge from "./InitiativeBadge";
-import Medium from "@/shared/icons/Medium";
 import Social from "./Social";
+import Logo from "../components/Logo";
+import Medium from "@/shared/icons/Medium";
 import Facebook from "@/shared/icons/Facebook";
 import Twitter from "@/shared/icons/Twitter";
 import LinkedIn from "@/shared/icons/LinkedIn";
-import Logo from "../components/Logo";
+import { AboutRoutes } from "@/shared/utilities/routes";
 
 const Footer = () => {
   return (
@@ -46,10 +47,10 @@ const Footer = () => {
 };
 
 const Aboutus: LinkProps[] = [
-  { type: "link", name: "Our history", href: "/about" },
-  { type: "link", name: "Our goals", href: "" },
-  { type: "link", name: "Our organization", href: "" },
-  { type: "link", name: "Our partners", href: "" },
+  { type: "link", name: "Our history", href: AboutRoutes.History },
+  { type: "link", name: "Our goals", href: AboutRoutes.Goals },
+  { type: "link", name: "Our organization", href: AboutRoutes.Organization },
+  { type: "link", name: "Our partners", href: AboutRoutes.Partners },
   { type: "link", name: "Transparency", href: "" },
 ];
 

@@ -4,7 +4,7 @@ import Item, { ItemProps } from "./Item";
 
 const TheBoard = () => {
   return (
-    <PageLayer>
+    <PageLayer id="organization">
       <Heading42>Our Organization: The Monika Kindergarten Förderverein Association</Heading42>
 
       <h3 className="text-4xl font-title font-bold text-center sm:text-2xl mt-10">The board of directors</h3>

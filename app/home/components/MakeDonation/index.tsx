@@ -1,6 +1,8 @@
 import Heading42 from "@/shared/components/Heading42";
 import PageLayer from "@/shared/components/PageLayer";
 import Slider from "./Slider";
+import Link from "next/link";
+import { AppRoutes } from "@/shared/utilities/routes";
 
 const MakeDonation = () => {
   return (
@@ -14,7 +16,9 @@ const MakeDonation = () => {
 
       <Slider />
 
-      <button className="btn btn-outline w-fit mx-auto mt-5">Learn More</button>
+      <Link href={AppRoutes.Projects} className="btn btn-outline w-fit mx-auto mt-5">
+        Learn More
+      </Link>
     </PageLayer>
   );
 };

@@ -1,6 +1,8 @@
+import Link from "next/link";
 import LazyImage from "../LazyImage";
 import PageLayer from "../PageLayer";
 import AfricaSvg from "./images/AfricaSvg";
+import { AppRoutes } from "@/shared/utilities/routes";
 
 const WorkInAfrica = () => {
   return (
@@ -14,7 +16,9 @@ const WorkInAfrica = () => {
           There are various jobs to be undertaken that can help our cause
         </p>
 
-        <button className="btn btn-error w-fit">Job Offers</button>
+        <Link href={AppRoutes.GetInvolved} className="btn btn-error w-fit">
+          Job Offers
+        </Link>
       </div>
 
       <LazyImage

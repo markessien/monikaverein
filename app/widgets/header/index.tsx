@@ -4,6 +4,8 @@ import SearchAction from "./components/SearchAction";
 import Image from "next/image";
 import spendenSiegel from "./images/spenden-siegel.png";
 import Logo from "../components/Logo";
+import Link from "next/link";
+import { AppRoutes } from "@/shared/utilities/routes";
 
 const Header = () => {
   return (
@@ -21,7 +23,9 @@ const Header = () => {
       <div className="navbar-end ml-auto w-auto sm:hidden">
         <SearchAction />
 
-        <button className="btn btn-error text-white mr-4 ml-10">Donate Now</button>
+        <Link href={AppRoutes.Donate} className="btn btn-error text-white mr-4 ml-10">
+          Donate Now
+        </Link>
 
         <Image src={spendenSiegel} alt="" height={50} />
       </div>

@@ -1,5 +1,7 @@
 import Heading42 from "@/shared/components/Heading42";
 import PageLayer from "@/shared/components/PageLayer";
+import { AppRoutes } from "@/shared/utilities/routes";
+import Link from "next/link";
 
 const SupportProject = () => {
   return (
@@ -13,7 +15,9 @@ const SupportProject = () => {
         providing skills training for them.
       </p>
 
-      <button className="btn btn-error mx-auto mt-3">Donate Now</button>
+      <Link href={AppRoutes.Donate} className="btn btn-error mx-auto mt-3">
+        Donate Now
+      </Link>
     </PageLayer>
   );
 };

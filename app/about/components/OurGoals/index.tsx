@@ -4,7 +4,7 @@ import Item from "./Item";
 
 const OurGoals = () => {
   return (
-    <PageLayer>
+    <PageLayer id="goals">
       <Heading42>Our Goals: What we strive for</Heading42>
 
       <p className="text-xl font-text font-normal text-black sm:text-base text-center mt-6">
