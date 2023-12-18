@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import AccountCard from "./AccountCard";
 
 const DonationImpact = () => {
   return (
     <PageLayer className="flex flex-col gap-4">
-      <Heading42>Your donation to drive positive impact</Heading42>
+      <Text size="42" tag="h2">
+        Your donation to drive positive impact
+      </Text>
 
       <div className="flex gap-8 lg:flex-wrap mt-3">
         <p className="text-xl font-text font-normal text-left w-[65%] lg:w-full mx-auto sm:text-lg">

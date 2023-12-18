@@ -1,4 +1,4 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import Collection from "./components/Collection";
 
@@ -9,10 +9,14 @@ const InProgress = () => {
         team!`;
 
   return (
-    <PageLayer className="grid gap-14">
-      <Heading42>Projects Currently in Progress</Heading42>
+    <PageLayer className="grid gap-14" id="in-progress">
+      <Text size="42" tag="h2">
+        Projects Currently in Progress
+      </Text>
 
-      <p className="text-xl font-normal font-text text-black text-center -mt-10 sm:text-base">{text}</p>
+      <Text size="20" tag="p" className="-mt-10">
+        {text}
+      </Text>
 
       <Collection
         title="Urgent"
@@ -44,6 +48,7 @@ const InProgress = () => {
       />
 
       <Collection
+        id="building-construction"
         title="Building and Construction Projects"
         text="We need immediate funds for vital construction projects that will expand partner schools, make them safer, and
           improve infrastructure. Your donation will directly contribute to creating lasting benefits for students and
@@ -89,6 +94,7 @@ const InProgress = () => {
       />
 
       <Collection
+        id="continues-projects"
         title="Monika Kindergarten Förderverein Regular Continuous Projects"
         text="We're dedicated to ongoing impactful projects in our community, but they need steady financial support to stay effective. Your regular donations are crucial for sustaining these efforts, driving positive and lasting change. With your consistent contributions, we can plan and execute long-term strategies to ensure our projects continue transforming lives. Join us in this mission by making regular donations and become a driving force behind our continuous projects."
         list={[

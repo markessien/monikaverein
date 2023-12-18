@@ -1,4 +1,4 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 
 const list = [
@@ -27,15 +27,16 @@ const list = [
 const CoreValues = () => {
   return (
     <PageLayer className="grid gap-6">
-      <Heading42>Core values: Our Ethics</Heading42>
+      <Text size="42" tag="h2">
+        Core values: Our Ethics
+      </Text>
 
       <p className="text-black text-xl sm:text-base font-text text-center mb-8">
-        At Monika Kindergarten Förderverein, our core values form the bedrock of everything we do. They shape our
-        identity, guide our actions, and inspire us to create a lasting impact. We believe in the power of education to
-        transform lives and empower communities, and these core values underpin our commitment to making a difference.
-        These core values guide our decision-making, program development, and daily operations. Together, guided by
-        these core values, we are committed to transforming lives, empowering communities, and building a more equitable
-        and prosperous world for all.
+        At Monika Kindergarten Förderverein, our core values form the bedrock of everything we do. They shape our identity, guide our actions, and
+        inspire us to create a lasting impact. We believe in the power of education to transform lives and empower communities, and these core values
+        underpin our commitment to making a difference. These core values guide our decision-making, program development, and daily operations.
+        Together, guided by these core values, we are committed to transforming lives, empowering communities, and building a more equitable and
+        prosperous world for all.
       </p>
 
       <div className="grid gap-8">

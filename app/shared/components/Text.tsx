@@ -1,7 +1,7 @@
 import { CSSProperties, ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
-type Size = "20" | "30" | "42" | "60";
+type Size = "20" | "30" | "42" | "60" | "72";
 
 type Props = {
   children?: ReactNode;
@@ -13,10 +13,11 @@ type Props = {
 };
 
 const sizes: Record<Size, string> = {
-  "20": "text-xl sm:text-base !font-text !font-normal text-center",
+  "20": "text-xl sm:text-base !font-text !font-normal text-center text-black",
   "30": "text-3xl lg:text-2xl sm:!text-base font-title font-bold sm:font-normal",
   "42": "text-[42px] lg:text-4xl sm:!text-3xl !font-title !font-bold text-secondary-600 text-center",
   "60": "text-6xl !font-bold !font-title lg:text-4xl sm:!text-3xl",
+  "72": "text-7xl text-center font-bold font-title text-secondary-600 xl:text-5xl sm:!text-3xl md:!text-4xl",
 };
 
 const Text = ({ children, tag = "p", className = "", id, style, size = "20" }: Props) => {

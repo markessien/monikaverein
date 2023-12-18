@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import Item from "./Item";
 
 const OurGoals = () => {
   return (
     <PageLayer id="goals">
-      <Heading42>Our Goals: What we strive for</Heading42>
+      <Text size="42" tag="h2">
+        Our Goals: What we strive for
+      </Text>
 
       <p className="text-xl font-text font-normal text-black sm:text-base text-center mt-6">
         {`At Monika Kindergarten Förderverein, we are dedicated to a singular mission: empowering Africa through education and promoting equality across the continent. Our organization strives tirelessly to create a future where every African child has access to quality education, regardless of their background or circumstances.Our goal is to bridge the educational gap that exists in Africa, ensuring that every child has equal opportunities to learn and succeed. We work relentlessly to provide educational resources, infrastructure, and teacher training to underserved communities, thereby enhancing the quality of education across the continent.`}

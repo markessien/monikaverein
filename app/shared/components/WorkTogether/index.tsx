@@ -1,4 +1,3 @@
-import Heading42 from "../Heading42";
 import PageLayer from "../PageLayer";
 import LazyImage from "../LazyImage";
 import { AppRoutes } from "@/shared/utilities/routes";

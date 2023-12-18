@@ -7,14 +7,11 @@ import Medium from "@/shared/icons/Medium";
 import Facebook from "@/shared/icons/Facebook";
 import Twitter from "@/shared/icons/Twitter";
 import LinkedIn from "@/shared/icons/LinkedIn";
-import { AboutRoutes } from "@/shared/utilities/routes";
+import { AboutRoutes, ProjectRoutes } from "@/shared/utilities/routes";
 
 const Footer = () => {
   return (
-    <PageLayer
-      tag="footer"
-      className="flex flex-col justify-center items-center lg_up:!p-20 py-4 gap-4 h-[505px] xl:h-auto bg-secondary-400 mt-10"
-    >
+    <PageLayer tag="footer" className="flex flex-col justify-center items-center lg_up:!p-20 py-4 gap-4 h-[505px] xl:h-auto bg-secondary-400 mt-10">
       <div className="flex justify-between flex-wrap gap-10 w-full max-w-[1500px]">
         <ListItem title="About us" links={Aboutus} />
         <ListItem title="Projects" links={Projects} />
@@ -31,9 +28,7 @@ const Footer = () => {
           <Logo className="btn btn-ghost text-black-3 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
         </div>
 
-        <p className="font-text text-base font-normal text-neutral-100 mt-2 sm:order-10">
-          © Monika Kindergarten Förderverein e.V.
-        </p>
+        <p className="font-text text-base font-normal text-neutral-100 mt-2 sm:order-10">© Monika Kindergarten Förderverein e.V.</p>
 
         <div className="flex gap-6 ml-auto mr-40 xl:mr-0 md:ml-0">
           <Social icon={<Medium />} />
@@ -55,10 +50,14 @@ const Aboutus: LinkProps[] = [
 ];
 
 const Projects: LinkProps[] = [
-  { type: "link", name: "Library", href: "" },
-  { type: "link", name: "Fee funds", href: "" },
-  { type: "link", name: "Computer lab", href: "" },
-  { type: "link", name: "Hostel construction", href: "" },
+  { type: "link", name: "Accomplished", href: ProjectRoutes.Accomplished },
+  { type: "link", name: "In progress", href: ProjectRoutes.Inprogress },
+  { type: "link", name: "Building and construction", href: ProjectRoutes.Building },
+  { type: "link", name: "Continues", href: ProjectRoutes.Continues },
+  // { type: "link", name: "Library", href: "" },
+  // { type: "link", name: "Fee funds", href: "" },
+  // { type: "link", name: "Computer lab", href: "" },
+  // { type: "link", name: "Hostel construction", href: "" },
 ];
 
 const GetInvolved: LinkProps[] = [

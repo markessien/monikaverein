@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import Item, { ItemProps } from "./Item";
 
 const OurHistory = () => {
   return (
     <PageLayer id="history">
-      <Heading42>Our History: Where it all began</Heading42>
+      <Text size="42" tag="h2">
+        Our History: Where it all began
+      </Text>
 
       <p className="text-xl font-text font-normal text-black sm:text-base text-center mt-6">
         {`Monika Kindergarten Förderverein e.V is a German non-governmental organisation (NGO) that was created to help

@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import LazyImage from "@/shared/components/LazyImage";
 
 const Partners = () => {
   return (
     <PageLayer id="partners">
-      <Heading42 className="mb-10">Our Partnerships: who we work with</Heading42>
+      <Text size="42" tag="h2" className="mb-10">
+        Our Partnerships: who we work with
+      </Text>
 
       <div className="grid grid-cols-2 gap-10 lg:grid-cols-1 justify-items-center">
         <div className="max-w-[816px]">

@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import ProjectCard, { ProjectCardProps } from "@/shared/components/ProjectCard";
 
 const OngoingProjects = () => {
   return (
     <PageLayer>
-      <Heading42>Urgent ongoing projects</Heading42>
+      <Text size="42" tag="h2">
+        Urgent ongoing projects
+      </Text>
 
       <div className="flex flex-col gap-10 mt-16">
         {list.map((item, idx) => (

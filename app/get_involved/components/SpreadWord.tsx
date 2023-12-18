@@ -1,4 +1,4 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import LazyImage from "@/shared/components/LazyImage";
 import PageLayer from "@/shared/components/PageLayer";
 import ArrowRight from "@/shared/icons/ArrowRight";
@@ -9,12 +9,13 @@ const SpreadWord = () => {
 
   return (
     <PageLayer className="grid gap-4">
-      <Heading42 className="">Spread the word</Heading42>
+      <Text size="42" tag="h2" className="">
+        Spread the word
+      </Text>
 
       <p className="text-xl font-text font-normal text-center">
-        You can support in spreading the word about our organization in your neighborhood and community. By sharing our
-        mission, you can help us reach individuals who may be passionate about making a difference and would like to
-        contribute their time, skills, or resources.
+        You can support in spreading the word about our organization in your neighborhood and community. By sharing our mission, you can help us reach
+        individuals who may be passionate about making a difference and would like to contribute their time, skills, or resources.
       </p>
 
       <div className="grid grid-cols-2 lg:grid-cols-1 gap-10 lg:place-items-center mt-4">
@@ -23,16 +24,16 @@ const SpreadWord = () => {
 
           <ol className="text-xl grid gap-8 list-decimal ml-6">
             <li>
-              Talk to your friends, neighbors, and colleagues about our cause. Share our mission and the impact we are
-              making in Africa through education.
+              Talk to your friends, neighbors, and colleagues about our cause. Share our mission and the impact we are making in Africa through
+              education.
             </li>
             <li>
-              Utilize social media platforms to spread awareness. Post about our organization, share our updates, and
-              invite others to follow and support our work.
+              Utilize social media platforms to spread awareness. Post about our organization, share our updates, and invite others to follow and
+              support our work.
             </li>
             <li>
-              Organize community gatherings or events to raise awareness. We would be happy to provide informational
-              materials or a speaker to talk about our initiatives.
+              Organize community gatherings or events to raise awareness. We would be happy to provide informational materials or a speaker to talk
+              about our initiatives.
             </li>
           </ol>
         </div>

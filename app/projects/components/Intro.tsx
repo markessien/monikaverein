@@ -1,4 +1,5 @@
 import PageLayer from "@/shared/components/PageLayer";
+import Text from "@/shared/components/Text";
 
 const Intro = () => {
   const text = `People's lives can be profoundly and drastically transformed as a result of donations given over time.  We can
@@ -8,12 +9,13 @@ const Intro = () => {
 
   return (
     <PageLayer className="flex flex-col justify-center mt-10">
-      <h1 className="text-7xl text-center font-bold font-title text-secondary-600 xl:text-5xl sm:!text-3xl md:!text-4xl">
-        <span className="inline-block">Monika Kindergarten Förderverein.</span> <br />{" "}
-        <span className="inline-block mt-4">Projects</span>
-      </h1>
+      <Text size="72" tag="h1">
+        <span className="inline-block">Monika Kindergarten Förderverein.</span> <br /> <span className="inline-block mt-4">Projects</span>
+      </Text>
 
-      <p className="text-xl font-normal font-text text-black text-center mt-8 sm:text-base">{text}</p>
+      <Text size="20" tag="p" className="text-black mt-8">
+        {text}
+      </Text>
     </PageLayer>
   );
 };

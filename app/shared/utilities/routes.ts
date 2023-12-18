@@ -13,3 +13,10 @@ export const AboutRoutes = {
   Partners: `${AppRoutes.About}/#partners`,
   Organization: `${AppRoutes.About}/#organization`,
 } as const;
+
+export const ProjectRoutes = {
+  Accomplished: `${AppRoutes.Projects}/#accomplished`,
+  Inprogress: `${AppRoutes.Projects}/#in-progress`,
+  Building: `${AppRoutes.Projects}/#building-construction`,
+  Continues: `${AppRoutes.Projects}/#continues-projects`,
+} as const;

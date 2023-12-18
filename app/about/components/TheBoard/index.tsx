@@ -1,11 +1,13 @@
-import Heading42 from "@/shared/components/Heading42";
+import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 import Item, { ItemProps } from "./Item";
 
 const TheBoard = () => {
   return (
     <PageLayer id="organization">
-      <Heading42>Our Organization: The Monika Kindergarten Förderverein Association</Heading42>
+      <Text size="42" tag="h2">
+        Our Organization: The Monika Kindergarten Förderverein Association
+      </Text>
 
       <h3 className="text-4xl font-title font-bold text-center sm:text-2xl mt-10">The board of directors</h3>
 
