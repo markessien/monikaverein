@@ -3,11 +3,14 @@ import PageLayer from "../PageLayer";
 import LazyImage from "../LazyImage";
 import { AppRoutes } from "@/shared/utilities/routes";
 import Link from "next/link";
+import Text from "../Text";
 
 const WorkTogether = () => {
   return (
     <PageLayer className="flex flex-col gap-20 sm:gap-10">
-      <Heading42>Ways we can work together</Heading42>
+      <Text size="42" tag="h2">
+        Ways we can work together
+      </Text>
 
       <div className="flex gap-6 justify-around flex-wrap md:gap-16 sm:!gap-10">
         <Item
@@ -20,11 +23,7 @@ const WorkTogether = () => {
           link={AppRoutes.GetInvolved}
           image="https://ik.imagekit.io/cocroooiz/frontend/heart-bag.png?updatedAt=1702480583870"
         />
-        <Item
-          title="Giving"
-          link={AppRoutes.Donate}
-          image="https://ik.imagekit.io/cocroooiz/frontend/gift-bag.png?updatedAt=1702480583466"
-        />
+        <Item title="Giving" link={AppRoutes.Donate} image="https://ik.imagekit.io/cocroooiz/frontend/gift-bag.png?updatedAt=1702480583466" />
       </div>
     </PageLayer>
   );

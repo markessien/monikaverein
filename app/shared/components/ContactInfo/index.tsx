@@ -1,11 +1,13 @@
-import Heading42 from "../Heading42";
 import LazyImage from "../LazyImage";
 import PageLayer from "../PageLayer";
+import Text from "../Text";
 
 const ContactInfo = () => {
   return (
     <PageLayer className="flex flex-col gap-10">
-      <Heading42>For more information about our organization</Heading42>
+      <Text size="42" tag="h2">
+        For more information about our organization
+      </Text>
 
       <div className="flex justify-between items-center xl:flex-col xl:justify-center gap-14 max-w-7xl mx-auto w-full">
         <Item
@@ -27,19 +29,7 @@ const ContactInfo = () => {
   );
 };
 
-const Item = ({
-  image,
-  name,
-  country,
-  phone,
-  email,
-}: {
-  image: string;
-  name: string;
-  country: string;
-  phone: string;
-  email: string;
-}) => (
+const Item = ({ image, name, country, phone, email }: { image: string; name: string; country: string; phone: string; email: string }) => (
   <div className="flex gap-8 sm:flex-col sm:items-center sm:gap-3 sm:mx-auto">
     <LazyImage
       src={image}
