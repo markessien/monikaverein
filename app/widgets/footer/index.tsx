@@ -56,17 +56,17 @@ const Aboutus: LinkProps[] = [
 
 const Projects: LinkProps[] = [
   { type: "link", name: "Library", href: "" },
-  { type: "link", name: "Fee Funds", href: "" },
-  { type: "link", name: "Computer Lab", href: "" },
-  { type: "link", name: "Hostel Construction", href: "" },
+  { type: "link", name: "Fee funds", href: "" },
+  { type: "link", name: "Computer lab", href: "" },
+  { type: "link", name: "Hostel construction", href: "" },
 ];
 
 const GetInvolved: LinkProps[] = [
   { type: "link", name: "Volunteer", href: "" },
-  { type: "link", name: "Provide Home", href: "" },
-  { type: "link", name: "Give Food", href: "" },
-  { type: "link", name: "Gift Donations", href: "" },
-  { type: "link", name: "Save the Children", href: "" },
+  { type: "link", name: "Provide home", href: "" },
+  { type: "link", name: "Give food", href: "" },
+  { type: "link", name: "Gift donations", href: "" },
+  { type: "link", name: "Save the children", href: "" },
 ];
 
 const Locations: LinkProps[] = [

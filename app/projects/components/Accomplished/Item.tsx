@@ -4,6 +4,7 @@ export type ItemProps = { title: string; text: string; images: [string, string] 
 
 const Item = ({ title, text, images }: ItemProps) => {
   const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+
   return (
     <div>
       <h3 className="font-bold font-title mb-4 text-4xl sm:text-2xl">{title}</h3>
