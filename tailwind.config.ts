@@ -92,10 +92,10 @@ const config: Config = {
         // => @media (min-width: 1280px) { ... }
 
         lg_up: "1025px",
-        // => @media (min-width: 1025px) { ... }
 
         md_up: "801px",
-        // => @media (min-width: 1024px) { ... }
+
+        sm_up: "601px",
       },
       fontFamily: {
         title: ["var(--font-oswald)"],

@@ -36,13 +36,13 @@ const ListItem = ({ title, links }: ListItemProps) => {
 
 const LocationItem = ({ address, country, phone }: LocationItemProps) => {
   return (
-    <div className="flex gap-2">
-      <GPS className="text-gray-4 mt-1" />
+    <div className="flex gap-2 sm:mb-4 last:mb-0">
+      <GPS className="text-gray-4 mt-1 sm:hidden" />
 
       <div>
         <p className="text-xl sm:text-base !font-title !font-normal text-neutral-100 uppercase m-0 mb-1">{country}</p>
         <p className="text-xl sm:text-base !font-text !font-normal text-neutral-100 m-0">
-          {address} <br /> {phone}
+          <span dangerouslySetInnerHTML={{ __html: address }}></span> <br /> <span>{phone}</span>
         </p>
       </div>
     </div>

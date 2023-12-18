@@ -1,6 +1,8 @@
 import Heading42 from "../Heading42";
 import PageLayer from "../PageLayer";
 import LazyImage from "../LazyImage";
+import { AppRoutes } from "@/shared/utilities/routes";
+import Link from "next/link";
 
 const WorkTogether = () => {
   return (
@@ -11,16 +13,16 @@ const WorkTogether = () => {
         <Item
           image="https://ik.imagekit.io/cocroooiz/frontend/dollar-bag.png?updatedAt=1702480583695"
           title="Fundraising"
-          link=""
+          link={AppRoutes.GetInvolved}
         />
         <Item
           title="Volunteering"
-          link=""
+          link={AppRoutes.GetInvolved}
           image="https://ik.imagekit.io/cocroooiz/frontend/heart-bag.png?updatedAt=1702480583870"
         />
         <Item
           title="Giving"
-          link=""
+          link={AppRoutes.Donate}
           image="https://ik.imagekit.io/cocroooiz/frontend/gift-bag.png?updatedAt=1702480583466"
         />
       </div>
@@ -36,7 +38,9 @@ const Item = ({ title, link, image }: { title: string; link: string; image?: str
       className="overflow-hidden rounded-full"
     />
     <p className="font-title font-bold text-3xl sm:text-base">{title}</p>
-    <button className="btn btn-outline">Learn More</button>
+    <Link href={link} className="btn btn-outline">
+      Learn More
+    </Link>
   </div>
 );
 

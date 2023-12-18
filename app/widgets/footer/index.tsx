@@ -70,11 +70,11 @@ const GetInvolved: LinkProps[] = [
 ];
 
 const Locations: LinkProps[] = [
-  { type: "location", country: "Germany", address: "Harmburg, XXXGFGG,", phone: "+1 7383-635-1574." },
+  { type: "location", country: "Germany", address: "Harmburg, <br /> XXXGFGG,", phone: "+1 7383-635-1574." },
   {
     type: "location",
     country: "Nigeria",
-    address: "10b NEPA Line, Ikot Ekpene, Akwa Ibom State,",
+    address: `10b NEPA Line, <br /> Ikot Ekpene, <br /> Akwa Ibom State,`,
     phone: "+234-706-3390-988.",
   },
 ];
