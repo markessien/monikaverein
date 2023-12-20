@@ -27,7 +27,7 @@ const InProgress = () => {
         can work together to have a profound and long-lasting impact in the lives of African children."
         list={[
           {
-            image: "donation-result-evening-school.png?updatedAt=1701230760275",
+            image: "School%20fee%20funding%20for%20street%20children.jpg?updatedAt=1703043225727",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -36,7 +36,7 @@ const InProgress = () => {
             text: `Our back-to-school project is aimed at reducing the number of children roaming and hawking on the streets instead of being in school. Yearly, we sponsor between 500 to 1000 children by paying their school fees. Help us to reachout to more by kindly contributing to this cause.`,
           },
           {
-            image: "need-1.jpeg?updatedAt=1701524512151",
+            image: "need-1.jpeg?updatedAt=1703045123923",
             amount: {
               expected: 150_000,
               raised: 13_000,
@@ -55,7 +55,7 @@ const InProgress = () => {
           the community."
         list={[
           {
-            image: "donation-result-2.png?updatedAt=1701676961429",
+            image: "Construction%20of%20Hostel%20Block.jpg?updatedAt=1703042981666",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -64,7 +64,7 @@ const InProgress = () => {
             text: `We pull over a thousand students off the streets each year and offer them free boarding facilities so they can learn effectively. We need your assistance to grow and develop more opportunities for housing for more kids. Please donate.`,
           },
           {
-            image: "st-pail-library.jpeg?updatedAt=1701677633461",
+            image: "st-pail-library.jpeg?updatedAt=1703045637218",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -73,7 +73,7 @@ const InProgress = () => {
             text: `Libraries are crucial to the support of education and the encouragement of lifelong learning. Please help us build and equip the library at St. Paul Comprehensive Secondary School. With your support, kids will have the chance to learn in educational environments that are very conducive.`,
           },
           {
-            image: "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141",
+            image: "Multipurpose%20Assembly%20Hall.JPG?updatedAt=1703043234516",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -82,7 +82,7 @@ const InProgress = () => {
             text: `The presence of an assembly hall in a school aids educators and learners in creating a culture of communication and representation of extracurricular and academic activities. We are currently working to have a multipurpose hall built for Monika Kindergarten to be utilized as an assembly/events hall for children activities. Donate today and let's all be a part of it.`,
           },
           {
-            image: "standard-digital-library.png?updatedAt=1701677491246",
+            image: "Digital%20Lab%20plan.jpg?updatedAt=1703043153859",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -99,7 +99,7 @@ const InProgress = () => {
         text="We're dedicated to ongoing impactful projects in our community, but they need steady financial support to stay effective. Your regular donations are crucial for sustaining these efforts, driving positive and lasting change. With your consistent contributions, we can plan and execute long-term strategies to ensure our projects continue transforming lives. Join us in this mission by making regular donations and become a driving force behind our continuous projects."
         list={[
           {
-            image: "toys-and-teaching-aids.png?updatedAt=1701677489083",
+            image: "Toys.jpg?updatedAt=1703042993129",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -108,7 +108,7 @@ const InProgress = () => {
             text: `We understand the role teaching aids play ensuring effective learning. With your support, we regularly update the teaching aid and learning toys of children in our partner schools. Your donation could go a long way to make a significant difference in their learning.`,
           },
           {
-            image: "wheel-chair-donation.png?updatedAt=1701677496185",
+            image: "wheel-chair-donation.png?updatedAt=1703045560662",
             amount: {
               expected: 150_000,
               raised: 15_000,
