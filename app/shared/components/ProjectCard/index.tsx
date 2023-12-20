@@ -9,7 +9,7 @@ export type ProjectCardProps = {
 };
 
 const ProjectCard = ({ title, text, image, amount: { expected, raised } }: ProjectCardProps) => {
-  const root = "https://ik.imagekit.io/cocroooiz/projects/";
+  const root = "https://ik.imagekit.io/cocroooiz/";
 
   return (
     <section className="flex justify-center lg_up:gap-10 md:gap-4 lg:flex-wrap">
