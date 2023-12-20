@@ -9,7 +9,7 @@ const ItemsList = () => {
         title="Become a member"
         heading="Join Monika Kindergarten Förderverein Nigerian or German team"
         text="By becoming a member, you will join a dedicated team of individuals working towards a common goal – creating a brighter future for Africa. Together, we can make a lasting impact and unlock the potential of countless children. Join us today and be a driving force in empowering Africa through education."
-        image="get-involved-1.jpeg?updatedAt=1702359752287"
+        image="get-involved-1.jpeg?updatedAt=1703059807018"
         ltr
       />
 
@@ -17,7 +17,7 @@ const ItemsList = () => {
         title="Corporate Membership"
         heading="Get your Company or workplace group Involved"
         text="Is your company or workplace looking for meaningful ways to give back and make a lasting impact? Partner with us and together we can empower African communities through education.Through this partnership, you will not only enhance your corporate social responsibility profile but also create a positive and engaged work environment for your employees."
-        image="get-involved-2.jpeg?updatedAt=1702359752284"
+        image="get-involved-2.jpeg?updatedAt=1703059808100"
         btnText="Get in Touch"
       />
     </PageLayer>
@@ -34,7 +34,7 @@ type Props = {
 };
 
 const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
 
   const textDir = ltr ? "" : "text-right";
 

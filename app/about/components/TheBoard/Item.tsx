@@ -4,7 +4,7 @@ import ContactInfo, { ContactInfoProps } from "@/about/shared/components/Contact
 export type ItemProps = ContactInfoProps & { pic: string; bio: string };
 
 const Item = ({ pic, bio, ...contactInfo }: ItemProps) => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  const root = "https://ik.imagekit.io/cocroooiz/about/";
   const blurRoot = root + "tr:w-50,h-50/";
 
   return (

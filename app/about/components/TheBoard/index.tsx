@@ -26,7 +26,7 @@ const TheBoard = () => {
 
 const list: ItemProps[] = [
   {
-    pic: "christiana-sow.jpeg?updatedAt=1702202922994",
+    pic: "christiana-sow.jpeg?updatedAt=1703060795751",
     name: "Cristiana Sow",
     role: "Chief Executive Officer",
     linkedin: "",

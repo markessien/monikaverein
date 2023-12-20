@@ -1,7 +1,7 @@
 import LazyImage from "@/shared/components/LazyImage";
 
 const Item = ({ title, text, image }: { title: string; text: string; image: string }) => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  const root = "https://ik.imagekit.io/cocroooiz/about/";
   const blurRoot = root + "tr:w-50,h-50/";
 
   return (

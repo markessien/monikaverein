@@ -4,7 +4,7 @@ import PageLayer from "@/shared/components/PageLayer";
 import ArrowRight from "@/shared/icons/ArrowRight";
 
 const SpreadWord = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
   const image = "spread-word.jpeg?updatedAt=1702359784000";
 
   return (

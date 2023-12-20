@@ -21,8 +21,8 @@ const ExecutiveTeam = () => {
 
 const list: ItemProps[] = [
   {
-    pic: "christiana-sow.jpeg?updatedAt=1702202922994",
-    name: "Etimbuk Obot",
+    pic: "christiana-sow.jpeg?updatedAt=1703060795751",
+    name: "Christiana Sow",
     role: "Chief Executive Officer",
     linkedin: "",
     twitter: "",

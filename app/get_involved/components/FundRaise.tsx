@@ -2,7 +2,7 @@ import PageLayer from "@/shared/components/PageLayer";
 import LazyImage from "@/shared/components/LazyImage";
 
 const FundRaise = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
   const img = "fund-raise-for-us.jpeg?updatedAt=1702359751688";
 
   return (
