@@ -1,17 +1,17 @@
 import WorkTogether from "@/shared/components/WorkTogether";
 import ContactInfo from "@/shared/components/ContactInfo";
 import Waitlist from "@/shared/components/Waitlist";
-import Hero from "./components/Hero";
 import IntroText from "./components/IntroText";
 import OurMission from "./components/OurMission";
 import OurVision from "./components/OurVision";
 import WorkInAfrica from "@/shared/components/WorkInAfrica";
 import CoreValues from "./components/CoreValues";
+import PageHero from "@/shared/components/PageHero";
 
 const Page = () => {
   return (
     <main className="flex flex-col gap-20 md:gap-8">
-      <Hero />
+      <PageHero />
       <IntroText />
       <OurMission />
       <OurVision />

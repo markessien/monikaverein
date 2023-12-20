@@ -7,8 +7,8 @@ const GradImage = () => {
   return (
     <Wrapper
       className="rounded-full overflow-hidden"
-      src="https://ik.imagekit.io/cocroooiz/frontend/our_vission.jpeg?updatedAt=1701681027902"
-      blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-30,h-30/our_vission.jpeg?updatedAt=1701681027902"
+      src="https://ik.imagekit.io/cocroooiz/philosophy/Our%20Vision.jpg?updatedAt=1703047286965"
+      blur="https://ik.imagekit.io/cocroooiz/philosophy/tr:w-30,h-30/Our%20Vision.jpg?updatedAt=1703047286965"
     />
   );
 };

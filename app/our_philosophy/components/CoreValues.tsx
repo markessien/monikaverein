@@ -28,7 +28,7 @@ const CoreValues = () => {
   return (
     <PageLayer className="grid gap-6">
       <Text size="42" tag="h2">
-        Core values: Our Ethics
+        Core values: our ethics
       </Text>
 
       <p className="text-black text-xl sm:text-base font-text text-center mb-8">
@@ -50,7 +50,7 @@ const CoreValues = () => {
 
 const Item = ({ title, count, text }: { title: string; count: number; text: string }) => {
   return (
-    <div className="flex gap-3 text-4xl text-secondary-500 font-bold font-title sm:text-xl">
+    <div className="flex gap-3 text-4xl lg:text-3xl text-secondary-500 sm:!text-xl font-bold font-title">
       <div>{count}.</div>
       <div>
         <h4>{title}</h4>
