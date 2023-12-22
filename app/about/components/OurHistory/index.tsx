@@ -9,18 +9,26 @@ const OurHistory = () => {
         Our History: Where it all began
       </Text>
 
-      <p className="text-xl font-text font-normal text-black sm:text-base text-center mt-6">
-        {`Monika Kindergarten Förderverein e.V is a German non-governmental organisation (NGO) that was created to help
-        Education in Africa. The association was formed in 1994 to support the project "Monika Kindergarten and
-        Elementary School'' in Nigeria, Ikot Ekpene and has since then worked closely with local partners to execute
-        numerous charitable projects to advance education in the South-South Region of Nigeria. Some of the projects
-        executed by the Förderverein e.V include funding building expansions for Monika kindergarten and Elementary
-        School and St. Paul Comprehensive Secondary School, located in Ikot Ekpene, Nigeria.  The NGO has also funded
-        the establishment of primary and secondary schools in Usaka, Nigeria, and has equally partnered with some
-        international organisations to sponsor the building of vocational training centres in villages, donation of
-        wheelchairs, school fee support to indigent children and the sponsorship of skilled training programmes to
-        complement conventional classroom teachings in order to make direct contributions to improving the living
-        conditions of the poor and disadvantaged people in Nigeria.`}
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`Monika Kindergarten, initiated in 1981, served as a foundational step towards improving the educational landscape and, subsequently, the living conditions of the community it aimed to impact. As the kindergarten gained traction and demonstrated success in providing early childhood education, the need for expansion became evident. The project garnered attention and support, leading to the establishment of the Monika Kindergarten Förderverein e.V. in 1994.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`The creation of the Förderverein e.V. was driven by a desire to formalise and consolidate efforts to enhance education in Africa, specifically in Nigeria's South-South Region. Recognising the crucial role education plays in elevating living standards, the Förderverein e.V. committed itself to supporting and advancing the Monika Kindergarten and Elementary School in Ikot Ekpene, Nigeria. This initiative aimed not only to provide quality education but also to address the broader socio-economic challenges faced by the local population.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`Over the course of nearly thirty decades, the Förderverein e.V. has collaborated closely with local partners to execute a range of charitable projects. One notable achievement includes funding building expansions for Monika Kindergarten and Elementary School, which enabled the institution to accommodate more students and enhance its educational facilities.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`The Förderverein e.V.'s impact extends beyond Ikot Ekpene, reaching Usaka, Nigeria, where they have funded the establishment of primary and secondary schools. Additionally, their commitment to holistic development led to partnerships with international organisations, resulting in the sponsorship of vocational training centres in villages. These centres contribute to skill development and empowerment, aligning with the organisation's broader mission to uplift disadvantaged communities.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`Among the diverse projects undertaken by the Förderverein e.V., notable efforts include the funding of St. Paul Comprehensive Secondary School in Ikot Ekpene. This secondary school initiative reinforces the organisation's commitment to providing a comprehensive education continuum, ensuring that students have opportunities for continued growth beyond the elementary level.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`The Förderverein e.V. has not limited its contributions to infrastructure alone. The NGO has facilitated the donation of wheelchairs, provided school fee support to indigent children, and sponsored skilled training programs. These endeavours reflect a multifaceted approach to education and community development, addressing both immediate needs and long-term aspirations.`}
+      </p>
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6">
+        {`In summary, the history of the Monika Kindergarten Förderverein e.V. is deeply intertwined with the evolution of the Monika Kindergarten and Elementary School in Ikot Ekpene, Nigeria. The decision to establish a kindergarten in 1981 laid the groundwork for a comprehensive commitment to education and community development. The Förderverein e.V., formed in 1994, stands as a testament to the enduring dedication to improving the lives of the poor and disadvantaged in Nigeria, making significant strides in education and beyond over its near 30-year history.`}
       </p>
 
       <div className="mt-10 grid gap-10">

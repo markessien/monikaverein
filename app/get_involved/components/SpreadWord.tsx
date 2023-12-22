@@ -8,7 +8,7 @@ const SpreadWord = () => {
   const image = "spread-word.jpeg?updatedAt=1702359784000";
 
   return (
-    <PageLayer className="grid gap-4">
+    <PageLayer className="grid gap-4" id="spread-the-word">
       <Text size="42" tag="h2" className="">
         Spread the word
       </Text>

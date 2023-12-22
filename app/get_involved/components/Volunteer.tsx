@@ -3,7 +3,7 @@ import PageLayer from "@/shared/components/PageLayer";
 
 const Volunteer = () => {
   return (
-    <PageLayer>
+    <PageLayer id="volunteer">
       <Text size="42" tag="h2" className="mb-4">
         Volunteer
       </Text>

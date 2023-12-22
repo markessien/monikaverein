@@ -4,7 +4,7 @@ import ArrowRight from "@/shared/icons/ArrowRight";
 
 const ItemsList = () => {
   return (
-    <PageLayer className="grid gap-14">
+    <PageLayer className="grid gap-14" id="become-member">
       <Item
         title="Become a member"
         heading="Join Monika Kindergarten Förderverein Nigerian or German team"

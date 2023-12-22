@@ -20,3 +20,9 @@ export const ProjectRoutes = {
   Building: `${AppRoutes.Projects}/#building-construction`,
   Continues: `${AppRoutes.Projects}/#continues-projects`,
 } as const;
+
+export const GetInvolvedRoutes = {
+  BecomeMember: `${AppRoutes.GetInvolved}/#become-member`,
+  Volunteer: `${AppRoutes.GetInvolved}/#volunteer`,
+  SpreadWord: `${AppRoutes.GetInvolved}/#spread-the-word`,
+} as const;

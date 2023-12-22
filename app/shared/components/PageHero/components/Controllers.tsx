@@ -23,6 +23,8 @@ const Controllers = ({ start, end, id }: { start: number; end: number; id: strin
     return () => {
       clearTimeout(id);
     };
+
+    // eslint-disable-next-line
   }, [next]);
 
   return (

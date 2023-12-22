@@ -7,7 +7,7 @@ import Medium from "@/shared/icons/Medium";
 import Facebook from "@/shared/icons/Facebook";
 import Twitter from "@/shared/icons/Twitter";
 import LinkedIn from "@/shared/icons/LinkedIn";
-import { AboutRoutes, ProjectRoutes } from "@/shared/utilities/routes";
+import { AboutRoutes, GetInvolvedRoutes, ProjectRoutes } from "@/shared/utilities/routes";
 
 const Footer = () => {
   return (
@@ -61,11 +61,13 @@ const Projects: LinkProps[] = [
 ];
 
 const GetInvolved: LinkProps[] = [
-  { type: "link", name: "Volunteer", href: "" },
-  { type: "link", name: "Provide home", href: "" },
-  { type: "link", name: "Give food", href: "" },
-  { type: "link", name: "Gift donations", href: "" },
-  { type: "link", name: "Save the children", href: "" },
+  { type: "link", name: "Become a member", href: GetInvolvedRoutes.BecomeMember },
+  { type: "link", name: "Volunteer", href: GetInvolvedRoutes.Volunteer },
+  { type: "link", name: "Spread the word", href: GetInvolvedRoutes.SpreadWord },
+  // { type: "link", name: "Provide home", href: "" },
+  // { type: "link", name: "Give food", href: "" },
+  // { type: "link", name: "Gift donations", href: "" },
+  // { type: "link", name: "Save the children", href: "" },
 ];
 
 const Locations: LinkProps[] = [
