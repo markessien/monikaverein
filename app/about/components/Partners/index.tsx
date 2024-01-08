@@ -11,9 +11,9 @@ const Partners = () => {
 
       <div className="grid grid-cols-2 gap-10 lg:grid-cols-1 justify-items-center">
         <div className="max-w-[816px]">
-          <h3 className="font-title font-bold text-2xl sm:text-xl mb-4">Who we work with</h3>
+          <h3 className="font-title font-bold text-2xl sm:text-xl mb-4 sm:font-title sm:font-bold sm:text-center">Who we work with</h3>
 
-          <p className="text-xl font-text font-normal sm:text-base">
+          <p className="text-xl font-text font-normal sm:text-base sm:text-center sm:font-text sm:font-normal">
             {`In order to improve people's living conditions, the level of education must be improved. This starts at a
             young age. Hence the decision to found a kindergarten. In 1981 this bungalow is rented. It can accommodate 4
             group rooms. In the beginning, 2 educators will be hired and trained. In the first quarter, 20 children
@@ -24,7 +24,7 @@ const Partners = () => {
         </div>
 
         <LazyImage
-          className="max-w-[622px] w-full ml-auto lg:ml-0"
+          className="max-w-[622px] w-full ml-auto lg:ml-0 min-h-52"
           src="https://ik.imagekit.io/cocroooiz/frontend/partner-handshake.png?updatedAt=1702240027536"
         />
       </div>

@@ -10,7 +10,7 @@ const DonationImpact = () => {
       </Text>
 
       <div className="flex gap-8 lg:flex-wrap mt-3">
-        <p className="text-xl font-text font-normal text-left w-[65%] lg:w-full mx-auto sm:text-lg">
+        <p className="text-xl font-text font-normal text-left w-[65%] lg:w-full mx-auto sm:text-base sm:text-center">
           {`The impact of people's donations over the years can be far-reaching and transformative. Through consistent and
           generous contributions, individuals can help support various causes, such as education, healthcare,
           environmental conservation, poverty alleviation, and more. Over time, these collective donations can

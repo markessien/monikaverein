@@ -13,9 +13,9 @@ const Item = ({ title, text, image }: { title: string; text: string; image: stri
         blur={blurRoot + image}
       />
 
-      <p className="xl font-title font-bold">{title}</p>
+      <p className="text-xl font-title font-bold">{title}</p>
 
-      <p className="xl font-text font-normal">{text}</p>
+      <p className="text-base font-text font-normal">{text}</p>
     </div>
   );
 };

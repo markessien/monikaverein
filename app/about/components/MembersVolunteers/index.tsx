@@ -6,7 +6,7 @@ const MembersVolunteers = () => {
     <PageLayer>
       <h3 className="text-4xl font-title font-bold text-center sm:text-2xl mt-10">The members and volunteers</h3>
 
-      <p className="text-xl font-text font-normal text-black sm:text-base mt-6 mb-10">
+      <p className="text-xl font-text font-normal text-black sm:text-base mt-6 mb-10 text-center">
         {`Monika Kindergarten Förderverein. thrives on the strength of its backbone: a dedicated collective comprising members, volunteers, and volunteer workers. Their unwavering commitment and wholehearted support are instrumental in bringing our vision to life. Through their selfless contributions, they actively participate in the realization of our mission and goals. Their invaluable efforts form the cornerstone of our organization, driving positive change and making a tangible difference in the lives of those we serve.`}
       </p>
 

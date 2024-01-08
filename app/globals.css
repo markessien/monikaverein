@@ -4,7 +4,7 @@
 
 @layer components {
   .btn {
-    @apply font-inter font-normal text-xl sm:text-base h-[48px] sm:h-[40px] min-h-[auto]
+    @apply font-inter font-normal text-xl sm:text-base sm:font-inter sm:font-normal h-[48px] sm:h-[40px] min-h-[auto]
   }
 
   .btn-error {

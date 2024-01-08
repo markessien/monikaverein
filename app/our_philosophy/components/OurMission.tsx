@@ -10,7 +10,7 @@ const OurMission = () => {
       </Text>
 
       <div className="flex justify-between items-center gap-8 mt-8 lg:flex-col">
-        <Text size="20" tag="p" className="w-[50%] lg:w-full text-left">
+        <Text size="20" tag="p" className="w-[50%] lg:w-full text-left sm:text-center">
           Our goal is to support the needy and promote education in Africa. Through strategic partnerships, it is possible for us to put smiles on the
           faces of African Children, especially those who are not in school. <br /> Our mission is to create a transformative impact in African
           communities through education, fostering sustainable development and empowering lives. With a strong commitment to equality and inclusivity,

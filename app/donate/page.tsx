@@ -8,7 +8,7 @@ import OngoingProjects from "./components/OngoingProjects";
 
 const Page = () => {
   return (
-    <main className="flex flex-col gap-20 md:gap-8">
+    <main className="flex flex-col gap-20">
       <Hero />
       <Intro />
       <DonationImpact />

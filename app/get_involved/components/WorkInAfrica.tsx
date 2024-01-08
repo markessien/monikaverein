@@ -10,7 +10,7 @@ const WorkInAfrica = () => {
   return (
     <PageLayer className="grid gap-8">
       <h2 className="text-3xl font-bold font-title text-center">Work in Africa</h2>
-      <p className="text-xl font-text font-normal">
+      <p className="text-xl font-text font-normal text-center sm:text-base">
         As a member of our organization, you will have the opportunity to make a tangible impact on the lives of African children, contribute to
         educational initiatives, and help shape a brighter future for the continent. Whether you are an educator, administrator, project manager, or
         have skills to offer in various fields, we welcome dedicated individuals who are passionate about making a difference.{" "}

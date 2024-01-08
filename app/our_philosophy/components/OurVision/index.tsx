@@ -11,7 +11,7 @@ const OurVision = () => {
         Our vision: the plan for a brighter future
       </Text>
 
-      <Text size="20" tag="p" className="text-left">
+      <Text size="20" tag="p" className="text-left sm:text-center">
         Our vision is to create a future where every child in Africa has equal access to quality education, unlocking their full potential and
         enabling them to thrive in a rapidly changing world. We envision empowered communities where education is a catalyst for sustainable
         development, social equity, and economic growth. Through our collaborative efforts, we aim to build a robust and inclusive education system

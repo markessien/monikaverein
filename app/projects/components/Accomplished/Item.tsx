@@ -7,9 +7,9 @@ const Item = ({ title, text, images }: ItemProps) => {
 
   return (
     <div>
-      <h3 className="font-bold font-title mb-4 text-4xl sm:text-2xl">{title}</h3>
+      <h3 className="font-bold font-title mb-4 text-4xl sm:text-xl sm:font-bold sm:font-title sm:text-center">{title}</h3>
 
-      <p className="font-text text-xl font-normal text-black sm:text-base mb-4">{text}</p>
+      <p className="font-text text-xl font-normal text-black sm:text-base mb-4 sm:text-center">{text}</p>
 
       <div className="flex gap-6 h-[393px] lg:h-[330px] md:!h-auto md:flex-wrap">
         {images.map((img, idx) => (
