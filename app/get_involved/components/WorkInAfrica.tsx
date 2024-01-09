@@ -6,7 +6,7 @@ import ArrowRight from "@/shared/icons/ArrowRight";
 const WorkInAfrica = () => {
   const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
 
-  const images = ["work-in-africa-1.jpeg?updatedAt=1702359783838", "work-in-africa-2.png?updatedAt=1702359784462"];
+  const images = ["work-in-africa-1.jpg?updatedAt=1704827405810", "work-in-africa-2.jpg?updatedAt=1704827080335"];
 
   return (
     <PageLayer className="grid gap-8">

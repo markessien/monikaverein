@@ -3,7 +3,7 @@ import LazyImage from "@/shared/components/LazyImage";
 
 const FundRaise = () => {
   const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
-  const img = "fund-raise-for-us.jpeg?updatedAt=1702359751688";
+  const img = "fund-raise-for-us.jpg?updatedAt=1704827076478";
 
   return (
     <PageLayer className="w-full h-[648px] bg-secondary-100 flex justify-around items-center md:flex-col md:h-auto md:py-8 gap-8">

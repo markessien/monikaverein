@@ -10,7 +10,7 @@ const ItemsList = () => {
         title="Become a member"
         heading="Join Monika Kindergarten Förderverein Nigerian or German team"
         text="By becoming a member, you will join a dedicated team of individuals working towards a common goal – creating a brighter future for Africa. Together, we can make a lasting impact and unlock the potential of countless children. Join us today and be a driving force in empowering Africa through education."
-        image="get-involved-1.jpeg?updatedAt=1703059807018"
+        image="become-partner.JPG?updatedAt=1704827080546"
         ltr
       />
 
