@@ -10,12 +10,12 @@ const WorkInAfrica = () => {
     <PageLayer className="bg-secondary-600 h-[648px] md:h-auto overflow-hidden flex gap-8 justify-around items-center md:flex-col relative z-[1] py-10 px-24">
       <AfricaSvg className="absolute left-28 -z-[1]" />
 
-      <div className="flex flex-col gap-6 justify-center">
+      <div className="flex flex-col gap-6">
         <Text size="60" tag="h2" className="text-neutral-100">
           Come work in Africa
         </Text>
 
-        <Text size="30" tag="p" className="xl:max-w-md text-secondary-100">
+        <Text size="30" tag="p" className="xl:max-w-md text-secondary-100 text-pretty">
           There are various jobs to be undertaken that can help our cause
         </Text>
 

@@ -1,3 +1,5 @@
+"use client";
+
 import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
 
@@ -31,13 +33,13 @@ const CoreValues = () => {
         Core values: our ethics
       </Text>
 
-      <p className="text-black text-xl sm:text-base font-text text-center mb-8">
+      <Text size="20" className="mb-8">
         At Monika Kindergarten Förderverein, our core values form the bedrock of everything we do. They shape our identity, guide our actions, and
         inspire us to create a lasting impact. We believe in the power of education to transform lives and empower communities, and these core values
         underpin our commitment to making a difference. These core values guide our decision-making, program development, and daily operations.
         Together, guided by these core values, we are committed to transforming lives, empowering communities, and building a more equitable and
         prosperous world for all.
-      </p>
+      </Text>
 
       <div className="grid gap-8">
         {list.map((item, idx) => (
@@ -50,12 +52,13 @@ const CoreValues = () => {
 
 const Item = ({ title, count, text }: { title: string; count: number; text: string }) => {
   return (
-    <div className="flex gap-3 text-4xl lg:text-3xl text-secondary-500 sm:!text-xl font-bold font-title">
+    <div className="grid grid-cols-30_full gap-3 sm:gap-0 text-4xl lg:text-3xl font-bold font-title text-secondary-500 sm:!text-lg sm:font-title sm:font-bold">
       <div>{count}.</div>
-      <div>
-        <h4>{title}</h4>
-        <p className="text-xl font-text text-black-1 sm:text-base mt-4 font-normal">{text}</p>
-      </div>
+      <h4 className="m-0">{title}</h4>
+      <div className="sm:hidden"></div>
+      <Text size="20" className="mt-4 sm:col-span-2 text-justify">
+        {text}
+      </Text>
     </div>
   );
 };

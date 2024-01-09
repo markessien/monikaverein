@@ -13,16 +13,16 @@ const SpreadWord = () => {
         Spread the word
       </Text>
 
-      <p className="text-xl font-text font-normal text-center sm:text-base">
+      <Text size="20">
         You can support in spreading the word about our organization in your neighborhood and community. By sharing our mission, you can help us reach
         individuals who may be passionate about making a difference and would like to contribute their time, skills, or resources.
-      </p>
+      </Text>
 
       <div className="grid grid-cols-2 lg:grid-cols-1 gap-10 lg:place-items-center mt-4">
         <div className="flex flex-col gap-10 my-auto sm:gap-5">
           <h4 className="text-4xl font-text sm:font-text sm:text-xl sm:font-bold">How you can help</h4>
 
-          <ol className="text-xl grid gap-8 list-decimal ml-6 sm:text-base">
+          <ol className="text-xl grid gap-8 list-decimal ml-6 sm:text-base text-justify">
             <li>
               Talk to your friends, neighbors, and colleagues about our cause. Share our mission and the impact we are making in Africa through
               education.

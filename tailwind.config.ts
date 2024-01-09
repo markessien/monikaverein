@@ -13,6 +13,11 @@ const config: Config = {
         active: 'active="true"',
       },
 
+      gridTemplateColumns: {
+        // Complex site-specific column configuration
+        "30_full": "30px 1fr",
+      },
+
       animation: {
         fade: "fade 0.5s linear",
         slideIn: "slideIn 1s linear",

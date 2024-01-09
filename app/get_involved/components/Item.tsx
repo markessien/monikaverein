@@ -1,5 +1,6 @@
 import LazyImage from "@/shared/components/LazyImage";
 import PageLayer from "@/shared/components/PageLayer";
+import Text from "@/shared/components/Text";
 import ArrowRight from "@/shared/icons/ArrowRight";
 
 const ItemsList = () => {
@@ -50,9 +51,9 @@ const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) 
           <span className="lg:hidden">:</span>
         </p>
 
-        <p className="text-4xl font-title font-bold sm:text-xl sm:font-bold sm:font-title text-black ">{heading}</p>
+        <p className="text-4xl font-title font-bold sm:text-xl sm:font-bold sm:font-title text-black text-justify">{heading}</p>
 
-        <p className="text-xl font-text font-normal text-black-1 sm:text-base sm:font-normal sm:font-text">{text}</p>
+        <Text size="20">{text}</Text>
 
         <button className={`btn btn-primary w-fit ${btnMl} lg:mx-auto`}>
           {btnText} <ArrowRight />
