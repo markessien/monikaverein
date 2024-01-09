@@ -5,11 +5,11 @@ import Text from "@/shared/components/Text";
 const Accomplished = () => {
   return (
     <PageLayer className="grid gap-12" id="accomplished">
-      <Text size="42" tag="h2">
+      <Text size="42" tag="h2" className="text-justify">
         Accomplished Projects
       </Text>
 
-      <Text size="20" tag="p" className="-mt-8">
+      <Text size="20" tag="p" className="-mt-8 text-justify">
         With your support, we have been able to accomplish a lot of projects in Nigeria. The cumulative effect of little contributions has led to
         considerable change, improved quality of life, community empowerment, and an enduring testament to being kind. Every year that goes by, the
         impact of these donations continues to transform the world and touch countless lives in Nigeria and Africa at large.

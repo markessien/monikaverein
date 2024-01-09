@@ -9,8 +9,8 @@ const Intro = () => {
 
   return (
     <PageLayer className="flex flex-col justify-center mt-10">
-      <Text size="72" tag="h1">
-        <span className="inline-block">Monika Kindergarten Förderverein.</span> <br /> <span className="inline-block mt-4">Projects</span>
+      <Text size="72" tag="h1" className="text-justify">
+        Monika Kindergarten Förderverein Projects
       </Text>
 
       <Text size="20" tag="p" className="text-black mt-8 text-justify">
