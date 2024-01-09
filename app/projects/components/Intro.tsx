@@ -13,7 +13,7 @@ const Intro = () => {
         <span className="inline-block">Monika Kindergarten Förderverein.</span> <br /> <span className="inline-block mt-4">Projects</span>
       </Text>
 
-      <Text size="20" tag="p" className="text-black mt-8">
+      <Text size="20" tag="p" className="text-black mt-8 text-justify">
         {text}
       </Text>
     </PageLayer>
