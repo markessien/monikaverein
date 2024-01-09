@@ -10,11 +10,11 @@ const InProgress = () => {
 
   return (
     <PageLayer className="grid gap-14" id="in-progress">
-      <Text size="42" tag="h2">
+      <Text size="42" tag="h2" className="text-center">
         Projects Currently in Progress
       </Text>
 
-      <Text size="20" tag="p" className="-mt-10">
+      <Text size="20" tag="p" className="-mt-10 text-justify">
         {text}
       </Text>
 

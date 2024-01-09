@@ -6,7 +6,7 @@ import InProgress from "./components/InProgress";
 
 export default function Page() {
   return (
-    <main className="flex flex-col gap-20">
+    <main className="flex flex-col gap-10">
       <Intro />
       <Accomplished />
       <InProgress />

@@ -5,7 +5,7 @@ import Text from "@/shared/components/Text";
 const Accomplished = () => {
   return (
     <PageLayer className="grid gap-12" id="accomplished">
-      <Text size="42" tag="h2" className="text-justify">
+      <Text size="42" tag="h2">
         Accomplished Projects
       </Text>
 

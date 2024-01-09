@@ -30,7 +30,7 @@ const ProjectCard = ({ title, text, image, amount: { expected, raised } }: Proje
       <div className="flex flex-col gap-4 max-w-[693px] w-full py-4 md:py-0">
         <h4 className="text-[26px] font-title font-bold text-black sm:text-xl sm:font-bold sm:font-title">{title}</h4>
 
-        <p className="text-lg font-text font-normal text-black sm:text-base sm:font-text">{text}</p>
+        <p className="text-lg font-text font-normal text-black sm:text-base sm:font-text text-justify">{text}</p>
 
         <p className="text-lg font-text font-normal text-black border border-solid w-fit py-2 px-4 mt-auto rounded sm:text-base sm:font-text">$120</p>
 

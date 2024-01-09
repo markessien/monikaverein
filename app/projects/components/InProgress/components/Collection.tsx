@@ -7,7 +7,7 @@ const Collection = ({ title, text, list, id }: Props) => {
     <div className="grid gap-4" id={id}>
       <h3 className="font-bold font-title text-4xl text-center sm:text-2xl">{title}</h3>
 
-      <p className="font-text text-xl font-normal text-black sm:text-base mb-8 sm:text-center">{text}</p>
+      <p className="font-text text-xl font-normal text-black sm:text-base mb-8 text-justify">{text}</p>
 
       <div className="flex flex-col gap-10">
         {list.map((item, idx) => (

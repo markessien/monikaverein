@@ -9,7 +9,7 @@ const Intro = () => {
 
   return (
     <PageLayer className="flex flex-col justify-center mt-10">
-      <Text size="72" tag="h1" className="text-justify">
+      <Text size="72" tag="h1" className="text-center">
         Monika Kindergarten Förderverein Projects
       </Text>
 
