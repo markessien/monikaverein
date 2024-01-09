@@ -1,8 +1,12 @@
 import Text from "@/shared/components/Text";
 import PageLayer from "@/shared/components/PageLayer";
-import Item, { ItemProps } from "./Item";
+import LazyImage from "@/shared/components/LazyImage";
 
 const OurHistory = () => {
+  const root = "https://ik.imagekit.io/cocroooiz/about/";
+
+  const images = ["history-4.png?updatedAt=1702015609410", "goal2.png?updatedAt=1702198957831"];
+
   return (
     <PageLayer id="history">
       <Text size="42" tag="h2">
@@ -34,38 +38,19 @@ const OurHistory = () => {
         {`In summary, the history of the Monika Kindergarten Förderverein e.V. is deeply intertwined with the evolution of the Monika Kindergarten and Elementary School in Ikot Ekpene, Nigeria. The decision to establish a kindergarten in 1981 laid the groundwork for a comprehensive commitment to education and community development. The Förderverein e.V., formed in 1994, stands as a testament to the enduring dedication to improving the lives of the poor and disadvantaged in Nigeria, making significant strides in education and beyond over its near 30-year history.`}
       </Text>
 
-      <div className="mt-10 grid gap-10">
-        {list.map((item, idx) => (
-          <Item key={item.title + idx} {...item} />
+      <div className="mt-10 grid grid-cols-2 sm:grid-cols-1 gap-10">
+        {images.map((img, idx) => (
+          <LazyImage
+            key={img + idx}
+            className="brightness-90"
+            style={{ height: "clamp(260px, 50vw, 500px)", width: "100%", maxWidth: "776px" }}
+            src={root + img}
+            blur={root + "tr:w-50,h-50/" + img}
+          />
         ))}
       </div>
     </PageLayer>
   );
 };
-
-const list: ItemProps[] = [
-  {
-    title: "40 Years of Monika Kindergarten Förderverein",
-    images: ["history-4.png?updatedAt=1702015609410"],
-    text: `In order to improve people's living conditions, the level of education must be improved.
-This starts at a young age.
-Hence the decision to found a kindergarten.
-In 1981 this bungalow is rented. It can accommodate 4 group rooms.
-In the beginning, 2 educators will be hired and trained.
-In the first quarter, 20 children register.
-In the second quarter there `,
-  },
-  {
-    title: "40 Years of Monika Kindergarten Förderverein",
-    images: ["goal2.png?updatedAt=1702198957831"],
-    text: `In order to improve people's living conditions, the level of education must be improved.
-This starts at a young age.
-Hence the decision to found a kindergarten.
-In 1981 this bungalow is rented. It can accommodate 4 group rooms.
-In the beginning, 2 educators will be hired and trained.
-In the first quarter, 20 children register.
-In the second quarter there `,
-  },
-];
 
 export default OurHistory;

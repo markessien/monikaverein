@@ -43,9 +43,9 @@ const Footer = () => {
 
 const Aboutus: LinkProps[] = [
   { type: "link", name: "Our history", href: AboutRoutes.History },
-  { type: "link", name: "Our goals", href: AboutRoutes.Goals },
-  { type: "link", name: "Our organization", href: AboutRoutes.Organization },
-  { type: "link", name: "Our partners", href: AboutRoutes.Partners },
+  // { type: "link", name: "Our goals", href: AboutRoutes.Goals },
+  { type: "link", name: "The board", href: AboutRoutes.Organization },
+  // { type: "link", name: "Our partners", href: AboutRoutes.Partners },
   { type: "link", name: "Transparency", href: "" },
 ];
 

@@ -1,5 +1,6 @@
 import LazyImage from "@/shared/components/LazyImage";
 import ContactInfo, { ContactInfoProps } from "@/about/shared/components/ContactInfo";
+import Text from "@/shared/components/Text";
 
 export type ItemProps = ContactInfoProps & { pic: string; bio: string };
 
@@ -20,7 +21,7 @@ const Item = ({ pic, bio, ...contactInfo }: ItemProps) => {
 
       <div className="h-[1px] bg-[#B6B6B6] my-4"></div>
 
-      <p className="text-xl font-text font-normal text-black sm:text-base">{bio}</p>
+      <Text size="20">{bio}</Text>
     </div>
   );
 };

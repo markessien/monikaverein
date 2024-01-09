@@ -1,14 +1,13 @@
 import PageLayer from "@/shared/components/PageLayer";
 import Item, { ItemProps } from "./Item";
+import Text from "@/shared/components/Text";
 
 const ExecutiveTeam = () => {
   return (
     <PageLayer>
-      <h3 className="text-4xl font-title font-bold text-center sm:text-2xl mt-10">The Executive Team</h3>
-
-      <p className="text-xl font-text font-normal text-black sm:text-base mt-6 mb-10 text-center">
+      {/* <Text size="20" className="mt-4 mb-10">
         {`The Executive Team assumes the vital role of implementing the organization's strategic initiatives and overseeing the day-to-day operations. With their comprehensive understanding of the company's vision and goals, the team formulates and executes effective strategies to drive progress and achieve desired outcomes. Through their astute leadership, the Executive Team navigates the complexities of the business landscape, making informed decisions to optimize performance and foster growth. By closely managing the operational aspects, the team ensures smooth functioning and facilitates the realization of the organization's overarching objectives.`}
-      </p>
+      </Text> */}
 
       <div className="grid grid-cols-3 lg:grid-cols-2 sm:!grid-cols-1 justify-items-center gap-10">
         {list.map((item, idx) => (

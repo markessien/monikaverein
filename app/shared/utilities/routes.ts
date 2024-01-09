@@ -11,7 +11,7 @@ export const AboutRoutes = {
   History: `${AppRoutes.About}/#history`,
   Goals: `${AppRoutes.About}/#goals`,
   Partners: `${AppRoutes.About}/#partners`,
-  Organization: `${AppRoutes.About}/#organization`,
+  Organization: `${AppRoutes.About}/#the_board`,
 } as const;
 
 export const ProjectRoutes = {
