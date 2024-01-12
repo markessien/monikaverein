@@ -14,7 +14,7 @@ const Page = () => {
       <DonationImpact />
       <DonateCompany />
       <OngoingProjects />
-      <ContactInfo />
+      <ContactInfo className="my-10" />
       <Waitlist />
     </main>
   );

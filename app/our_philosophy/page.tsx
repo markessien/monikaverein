@@ -4,9 +4,9 @@ import Waitlist from "@/shared/components/Waitlist";
 import IntroText from "./components/IntroText";
 import OurMission from "./components/OurMission";
 import OurVision from "./components/OurVision";
-import WorkInAfrica from "@/shared/components/WorkInAfrica";
 import CoreValues from "./components/CoreValues";
 import PageHero from "@/shared/components/PageHero";
+import WorkInAfrica from "@/shared/components/WorkInAfrica";
 
 const Page = () => {
   return (

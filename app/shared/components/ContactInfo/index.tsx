@@ -1,10 +1,11 @@
+import { twMerge } from "tailwind-merge";
 import LazyImage from "../LazyImage";
 import PageLayer from "../PageLayer";
 import Text from "../Text";
 
-const ContactInfo = () => {
+const ContactInfo = ({ className }: { className?: string }) => {
   return (
-    <PageLayer className="flex flex-col gap-10">
+    <PageLayer className={twMerge("flex flex-col gap-10", className)}>
       <Text size="42" tag="h2">
         For more information about our organization
       </Text>

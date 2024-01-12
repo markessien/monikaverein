@@ -10,7 +10,7 @@ export default function Page() {
       <Intro />
       <Accomplished />
       <InProgress />
-      <ContactInfo />
+      <ContactInfo className="my-10" />
       <Waitlist />
     </main>
   );

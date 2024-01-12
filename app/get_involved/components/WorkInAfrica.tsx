@@ -29,7 +29,7 @@ const WorkInAfrica = () => {
         ))}
       </div>
 
-      <button className="btn btn-primary w-fit mx-auto">
+      <button className="btn btn-primary w-fit mx-auto mt-8">
         Available Jobs <ArrowRight />
       </button>
     </PageLayer>

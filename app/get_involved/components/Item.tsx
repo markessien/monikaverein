@@ -37,7 +37,7 @@ type Props = {
 const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) => {
   const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
 
-  const textDir = ltr ? "" : "text-right";
+  const textDir = ltr ? "text-left" : "text-right";
 
   const order = ltr ? "" : "-order-1";
 
@@ -51,9 +51,11 @@ const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) 
           <span className="lg:hidden">:</span>
         </p>
 
-        <p className="text-4xl font-title font-bold sm:text-xl sm:font-bold sm:font-title text-black text-justify">{heading}</p>
+        <p className="text-4xl font-title font-bold sm:text-xl sm:font-bold sm:font-title text-black">{heading}</p>
 
-        <Text size="20">{text}</Text>
+        <Text size="20" className={textDir}>
+          {text}
+        </Text>
 
         <button className={`btn btn-primary w-fit ${btnMl} lg:mx-auto`}>
           {btnText} <ArrowRight />

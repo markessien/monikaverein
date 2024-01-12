@@ -11,7 +11,10 @@ import { AboutRoutes, GetInvolvedRoutes, ProjectRoutes } from "@/shared/utilitie
 
 const Footer = () => {
   return (
-    <PageLayer tag="footer" className="flex flex-col justify-center items-center lg_up:!p-20 py-4 gap-4 h-[505px] xl:h-auto bg-secondary-400 mt-10">
+    <PageLayer
+      tag="footer"
+      className="max-w-[1572px] flex flex-col justify-center items-center lg_up:!p-20 py-4 gap-4 h-[505px] xl:h-auto bg-secondary-400 mt-10"
+    >
       <div className="flex justify-between flex-wrap gap-10 w-full max-w-[1500px]">
         <ListItem title="About us" links={Aboutus} />
         <ListItem title="Projects" links={Projects} />

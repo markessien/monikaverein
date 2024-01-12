@@ -83,6 +83,8 @@ const config: Config = {
         lg: { max: "1024px" },
         // => @media (max-width: 1023px) { ... }
 
+        ipadAir: { max: "820px" },
+
         md: { max: "800px" },
         // => @media (max-width: 767px) { ... }
 

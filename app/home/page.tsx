@@ -2,10 +2,10 @@ import WorkTogether from "@/shared/components/WorkTogether";
 import MakeDonation from "./components/MakeDonation";
 import Philosophy from "./components/Philosophy";
 import SupportProject from "./components/SupportProject";
-import WorkInAfrica from "@/shared/components/WorkInAfrica";
 import ContactInfo from "@/shared/components/ContactInfo";
 import Waitlist from "@/shared/components/Waitlist";
 import PageHero from "@/shared/components/PageHero";
+import WorkInAfrica from "@/shared/components/WorkInAfrica";
 
 const Page = () => {
   return (
@@ -15,7 +15,9 @@ const Page = () => {
       <MakeDonation />
       <Philosophy />
       <WorkTogether />
+
       <WorkInAfrica />
+
       <ContactInfo />
       <Waitlist />
     </main>

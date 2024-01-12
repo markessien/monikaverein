@@ -4,10 +4,7 @@ import ProgressBar from "./ProgressBar";
 
 const Hero = () => {
   return (
-    <PageLayer
-      className="!p-0 relative flex justify-center items-center"
-      style={{ height: "clamp(200px, 45vw, 768px)" }}
-    >
+    <PageLayer className="!p-0 relative flex justify-center items-center max-w-full w-full" style={{ height: "clamp(200px, 45vw, 768px)" }}>
       <LazyImage
         className="w-full h-full"
         src="https://ik.imagekit.io/cocroooiz/frontend/donate-hero.jpg?updatedAt=1701835679456"
@@ -16,9 +13,7 @@ const Hero = () => {
 
       <div className="absolute left-20 text-white md:left-5 sm:hidden">
         <p className="text-xl text-neutral-100 bg-primary rounded px-4 font-text font-normal w-fit mb-3">URGENT</p>
-        <p className="text-6xl md:text-3xl font-title font-bold text-primary-600 bg-white rounded p-6 md:p-2 w-fit">
-          Special school block
-        </p>
+        <p className="text-6xl md:text-3xl font-title font-bold text-primary-600 bg-white rounded p-6 md:p-2 w-fit">Special school block</p>
         <ProgressBar raised={15000} expected={150000} />
       </div>
 

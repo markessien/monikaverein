@@ -16,7 +16,7 @@ const Page = () => {
       {/* <ExecutiveTeam /> */}
       {/* <MembersVolunteers /> */}
       {/* <Partners /> */}
-      <ContactInfo />
+      <ContactInfo className="my-10" />
       <Waitlist />
     </main>
   );

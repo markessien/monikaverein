@@ -1,9 +1,9 @@
 import PageLayer from "@/shared/components/PageLayer";
-import GradImage from "./GradImage";
 import ArrowRight from "@/shared/icons/ArrowRight";
 import Link from "next/link";
 import { AppRoutes } from "@/shared/utilities/routes";
 import Text from "@/shared/components/Text";
+import LazyImage from "@/shared/components/LazyImage";
 const OurVision = () => {
   return (
     <PageLayer className="grid gap-8">
@@ -19,10 +19,15 @@ const OurVision = () => {
       </Text>
 
       <div className="flex justify-between items-center gap-8 mt-8 lg:flex-col">
-        <GradImage />
+        <LazyImage
+          className="rounded-full overflow-hidden"
+          src="https://ik.imagekit.io/cocroooiz/philosophy/Our%20Vision.jpg?updatedAt=1703047286965"
+          blur="https://ik.imagekit.io/cocroooiz/philosophy/tr:w-30,h-30/Our%20Vision.jpg?updatedAt=1703047286965"
+          style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
+        />
 
         <div className="grid gap-6 max-w-[60%] lg:max-w-[100%]">
-          <h3 className="font-title font-bold text-5xl text-secondary-900 text-center lg:text-4xl sm:!text-3xl">
+          <h3 className="font-title font-bold text-5xl text-secondary-900 text-center lg:text-4xl sm:!text-3xl text-balance">
             “To see more African children have access to quality education and a better life”
           </h3>
 

@@ -15,7 +15,7 @@ const AccountCard = () => {
   };
 
   return (
-    <div className="bg-neutral-01 rounded-2xl border border-solid border-bg-[#DEE2E6] h-[348px] sm:min-h-[348px] w-[511px] sm:w-full lg:mx-auto flex flex-col justify-around items-center py-4 px-4">
+    <div className="bg-neutral-01 rounded-2xl border border-solid border-bg-[#DEE2E6] min-h-[348px] h-full sm:min-h-[348px] w-[511px] sm:w-full lg:mx-auto flex flex-col justify-around items-center py-4 px-4">
       <div className="h-[2px] bg-primary text-primary mb-2 w-full relative flex justify-center items-center">
         <div className="absolute bg-neutral-01 p-1 rounded-full">
           <Info />
