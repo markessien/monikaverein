@@ -45,7 +45,7 @@ const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) 
 
   return (
     <div className="grid grid-cols-2 lg:grid-cols-1 gap-10 lg:place-items-center">
-      <div className={`grid gap-4 ${textDir} lg:text-center`}>
+      <div className={`grid gap-4 ${textDir} lg:text-center lg:text-pretty`}>
         <p className="text-5xl font-bold font-title text-secondary-600 sm:text-2xl">
           {title}
           <span className="lg:hidden">:</span>
@@ -53,7 +53,7 @@ const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) 
 
         <p className="text-4xl font-title font-bold sm:text-xl sm:font-bold sm:font-title text-black">{heading}</p>
 
-        <Text size="20" className={textDir}>
+        <Text size="20" className={`${textDir} lg:text-justify`}>
           {text}
         </Text>
 

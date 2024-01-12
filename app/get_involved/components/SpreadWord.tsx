@@ -46,7 +46,7 @@ const SpreadWord = () => {
         />
       </div>
 
-      <button className="btn btn-primary w-fit mx-auto mt-10">
+      <button className="btn btn-primary w-fit mx-auto mt-10 lg:mt-4">
         Volunteer <ArrowRight />
       </button>
     </PageLayer>
