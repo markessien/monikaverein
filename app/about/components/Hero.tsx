@@ -3,7 +3,7 @@ import PageLayer from "@/shared/components/PageLayer";
 
 const Hero = () => {
   return (
-    <PageLayer className="!p-0 relative flex justify-center items-center min-w-full" style={{ height: "clamp(260px, 50vw, 768px)" }}>
+    <PageLayer className="!p-0 relative flex justify-center items-center min-w-full" style={{ height: "clamp(270px, 50vw, 768px)" }}>
       <LazyImage
         className="w-full h-full"
         src="https://ik.imagekit.io/cocroooiz/frontend/monika-school.png?updatedAt=1702013525265"

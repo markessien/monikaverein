@@ -13,7 +13,7 @@ const id = "slide";
 
 const PageHero = () => {
   return (
-    <section className="w-full relative z-[1]" style={{ height: "clamp(400px, 50vw,768px)" }}>
+    <section className="w-full relative z-[1]" style={{ height: "clamp(270px, 50vw, 768px)" }}>
       <Controllers start={0} end={images.length - 1} id={id} />
 
       <Carousel images={images} id={id} />
