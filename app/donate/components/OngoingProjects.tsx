@@ -5,11 +5,11 @@ import ProjectCard, { ProjectCardProps } from "@/shared/components/ProjectCard";
 const OngoingProjects = () => {
   return (
     <PageLayer>
-      <Text size="42" tag="h2">
+      <Text size="42" tag="h2" className="mt-8 mb-6">
         Urgent ongoing projects
       </Text>
 
-      <div className="flex flex-col gap-10 mt-16">
+      <div className="flex flex-col gap-10">
         {list.map((item, idx) => (
           <ProjectCard key={idx} {...item} />
         ))}
