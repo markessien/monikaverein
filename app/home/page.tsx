@@ -15,9 +15,7 @@ const Page = () => {
       <MakeDonation />
       <Philosophy />
       <WorkTogether />
-
       <WorkInAfrica />
-
       <ContactInfo />
       <Waitlist />
     </main>
