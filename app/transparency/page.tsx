@@ -12,7 +12,7 @@ const Page = () => {
       <PageLayer>
         <ol className="list-decimal grid gap-6 mx-5">
           {list.map((item, idx) => (
-            <Item {...item} key={idx} />
+            <Item key={idx} {...item} />
           ))}
         </ol>
       </PageLayer>
@@ -34,8 +34,9 @@ const list: { title: string; list: ReactNode[] }[] = [
   {
     title: "Complete articles of incorporation as well as information on the organizational goals",
     list: [
-      <Anchor content={["To the", "statute"]} href="https://drive.google.com/file/d/1OB2RoSHGwPm-a9gDrhhSHAPUMKRZK7Fk/view?usp=sharing" />,
+      <Anchor key={1} content={["To the", "statute"]} href="https://drive.google.com/file/d/1OB2RoSHGwPm-a9gDrhhSHAPUMKRZK7Fk/view?usp=sharing" />,
       <Anchor
+        key={2}
         content={["To the", "Mission and Vision"]}
         href="https://docs.google.com/document/d/1pKHdx_E172RrQyQLRkkDh6P2IyfqCJbIcR59z28r3Nc/edit?usp=drivesdk"
       />,
@@ -45,6 +46,7 @@ const list: { title: string; list: ReactNode[] }[] = [
     title: "Information on tax benefits",
     list: [
       <Anchor
+        key={1}
         content={["To the", "Notice of tax exemption"]}
         href="https://drive.google.com/file/d/1kHDahC5JQ-3xESIoxsa079sKy7WCNsci/view?usp=drive_link"
       />,
@@ -55,27 +57,27 @@ const list: { title: string; list: ReactNode[] }[] = [
     list: [
       "Christiana Sow (Managing Director)",
       "Mechthild Trantau (Secretary)",
-      <Anchor content={["Information on other decision makers could be found on the", "2021 annual report"]} href={annualReport} />,
+      <Anchor key={1} content={["Information on other decision makers could be found on the", "2021 annual report"]} href={annualReport} />,
     ],
   },
   {
     title: "Activity Report",
-    list: [<Anchor content={["The", "current annual report", "- See the first page"]} anchorText={1} href={annualReport} />],
+    list: [<Anchor key={1} content={["The", "current annual report", "- See the first page"]} anchorText={1} href={annualReport} />],
   },
   {
     title: "Personnel structure",
     list: [
-      <Anchor content={["The", "current annual report", "- See the first page"]} anchorText={1} href={annualReport} />,
+      <Anchor key={1} content={["The", "current annual report", "- See the first page"]} anchorText={1} href={annualReport} />,
       "Volunteers are also received yearly",
     ],
   },
   {
     title: "Source of Funds Disclosures",
-    list: [<Anchor content={["See", "annual report", "page 5"]} anchorText={1} href={annualReport} />],
+    list: [<Anchor key={1} content={["See", "annual report", "page 5"]} anchorText={1} href={annualReport} />],
   },
   {
     title: " Information on the use of funds",
-    list: [<Anchor content={["See", "annual report", "page 3 and 4"]} anchorText={1} href={annualReport} />],
+    list: [<Anchor key={1} content={["See", "annual report", "page 3 and 4"]} anchorText={1} href={annualReport} />],
   },
   {
     title: "Corporate Affiliation with Third Parties",
@@ -87,6 +89,7 @@ const list: { title: string; list: ReactNode[] }[] = [
     title: "Names of people whose annual payments are more than 10% of the total annual budget",
     list: [
       <Anchor
+        key={1}
         content={[
           "No individual payments are more than 10% of the annual budgets.",
           "Pages 5 and 6 of the annual report",

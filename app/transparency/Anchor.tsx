@@ -4,10 +4,10 @@ const Anchor = ({ href, content = [], anchorText }: { href?: string; content?: s
   return (
     <span className="">
       {content.map((text, idx) => {
-        if (idx !== anchorText) return <span key={idx}> {text} </span>;
+        if (idx !== anchorText) return <span key={idx + text}> {text} </span>;
 
         return (
-          <a href={href} target="_blank" className="text-error underline underline-offset-2" key={idx}>
+          <a key={idx + text} href={href} target="_blank" className="text-error underline underline-offset-2">
             {text}
           </a>
         );
