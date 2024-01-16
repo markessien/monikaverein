@@ -12,7 +12,7 @@ type Props = {
 const PageLayer = ({ children, tag = "section", className = "", id, style }: Props) => {
   const Tag = tag;
   return (
-    <Tag className={twMerge("max-w-[1200px] w-full mx-auto md:px-5 px-6", className)} id={id} style={style}>
+    <Tag className={twMerge("max-w-[1100px] w-full mx-auto md:px-5 px-6", className)} id={id} style={style}>
       {children}
     </Tag>
   );

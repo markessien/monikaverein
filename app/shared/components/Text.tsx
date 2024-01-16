@@ -6,7 +6,7 @@ type Size = "20" | "24" | "30" | "36" | "42" | "60" | "72";
 type Props = {
   children?: ReactNode;
   className?: string;
-  tag?: "p" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  tag?: "p" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "li";
   style?: CSSProperties;
   id?: string;
   size?: Size;

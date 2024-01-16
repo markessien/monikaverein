@@ -7,7 +7,7 @@ import Medium from "@/shared/icons/Medium";
 import Facebook from "@/shared/icons/Facebook";
 import Twitter from "@/shared/icons/Twitter";
 import LinkedIn from "@/shared/icons/LinkedIn";
-import { AboutRoutes, GetInvolvedRoutes, ProjectRoutes } from "@/shared/utilities/routes";
+import { AboutRoutes, AppRoutes, GetInvolvedRoutes, ProjectRoutes } from "@/shared/utilities/routes";
 
 const Footer = () => {
   return (
@@ -49,7 +49,7 @@ const Aboutus: LinkProps[] = [
   // { type: "link", name: "Our goals", href: AboutRoutes.Goals },
   { type: "link", name: "The board", href: AboutRoutes.Organization },
   // { type: "link", name: "Our partners", href: AboutRoutes.Partners },
-  { type: "link", name: "Transparency", href: "" },
+  { type: "link", name: "Transparency", href: AppRoutes.Transparency },
 ];
 
 const Projects: LinkProps[] = [

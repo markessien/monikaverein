@@ -5,6 +5,7 @@ export const AppRoutes = {
   Donate: "/donate",
   GetInvolved: "/get_involved",
   About: "/about",
+  Transparency: "/transparency",
 } as const;
 
 export const AboutRoutes = {
