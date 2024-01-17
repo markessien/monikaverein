@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 # Deploying
+install nexjs
+build with `npm run build`
+aws s3 rm s3://mke-verein.de --recursive
 aws s3 cp dist s3://mke-verein.de --recursive
 aws cloudfront create-invalidation --distribution-id E33M5C29LIMUJQ --paths "/*"
 
