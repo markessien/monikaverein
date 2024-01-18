@@ -61,8 +61,9 @@ const images = [
 
 const settings: SliderSettings = {
   dots: false,
+  fade: true,
   infinite: true,
-  speed: 500,
+  speed: 1500,
   autoplay: true,
   autoplaySpeed: 5000,
   slidesToShow: 1,
