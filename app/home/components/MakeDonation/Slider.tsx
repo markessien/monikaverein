@@ -1,10 +1,10 @@
 "use client";
 
 import styled from "@emotion/styled";
+import { useRef } from "react";
 import Slider, { Settings as SliderSettings } from "react-slick";
 import LazyImage from "@/shared/components/LazyImage";
 import ChevronLeft from "@/shared/icons/ChevronLeft";
-import { useRef } from "react";
 
 const ItemSlider = () => {
   const slideRef = useRef<Slider>(null);
@@ -25,18 +25,14 @@ const ItemSlider = () => {
         ))}
       </Slider>
 
-      <div
-        className="absolute left-3 top-1/3 text-gray-800 p-0 bg-gray-200 w-10 h-10 rounded-full  flex items-center justify-center"
-        onClick={prevSlide}
-      >
-        <ChevronLeft />
-      </div>
+      <div className="flex justify-between pr-6 absolute left-3 top-1/3 text-gray-800 w-full">
+        <div className=" p-0 bg-gray-200 w-10 h-10 rounded-full  flex items-center justify-center btn" onClick={prevSlide}>
+          <ChevronLeft />
+        </div>
 
-      <div
-        className="absolute right-3 !rotate-180 top-1/3 text-gray-800 p-0 bg-gray-200 w-10 h-10 rounded-full grid place-items-center"
-        onClick={nextSlide}
-      >
-        <ChevronLeft />
+        <div className="p-0 bg-gray-200 w-10 h-10 rounded-full grid place-items-center btn" onClick={nextSlide}>
+          <ChevronLeft className="!rotate-180" />
+        </div>
       </div>
     </Wrapper>
   );
