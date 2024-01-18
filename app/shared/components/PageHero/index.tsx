@@ -41,22 +41,22 @@ const PageHero = () => {
 type SliderItemProps = { image: string; hangerText?: ReactNode };
 
 const SliderItem = ({ image, hangerText }: SliderItemProps) => {
-  const root = "https://ik.imagekit.io/cocroooiz/frontend/";
-  const blurRoot = root + "tr:w-50,h-50/";
+  // const root = "https://ik.imagekit.io/cocroooiz/frontend/";
+  // const blurRoot = root + "tr:w-50,h-50/";
 
   return (
     <div className="bg-gray-200 relative w-full" style={{ height: "clamp(270px, 50vw, 768px)" }}>
-      <LazyImage className="size-full [&>img]:brightness-90" src={root + image} blur={blurRoot + image} />
+      <LazyImage className="size-full [&>img]:brightness-90" src={image} />
       {hangerText}
     </div>
   );
 };
 
 const images = [
-  { image: "multi-purpose-assembly-hall.jpeg?updatedAt=1701677666141", hangerText: <HangerText1 /> },
-  { image: "donate-hero.jpg?updatedAt=1701835679456", hangerText: <></> },
-  { image: "monika-school.png?updatedAt=1702013525265", hangerText: <></> },
-  { image: "hero-1.png?updatedAt=1701210478670", hangerText: <></> },
+  { image: "/images/multi-purpose-assembly-hall.jpeg", hangerText: <HangerText1 /> },
+  { image: "/images/donate-hero.jpg", hangerText: <></> },
+  { image: "/images/monika-school.png", hangerText: <></> },
+  { image: "/images/hero-1.png", hangerText: <></> },
 ];
 
 const settings: SliderSettings = {
