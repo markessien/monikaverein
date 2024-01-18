@@ -12,17 +12,9 @@ const WorkTogether = () => {
       </Text>
 
       <div className="flex gap-6 justify-around flex-wrap md:gap-16 sm:!gap-10">
-        <Item
-          image="https://ik.imagekit.io/cocroooiz/frontend/dollar-bag.png?updatedAt=1702480583695"
-          title="Fundraising"
-          link={AppRoutes.GetInvolved}
-        />
-        <Item
-          title="Volunteering"
-          link={AppRoutes.GetInvolved}
-          image="https://ik.imagekit.io/cocroooiz/frontend/heart-bag.png?updatedAt=1702480583870"
-        />
-        <Item title="Giving" link={AppRoutes.Donate} image="https://ik.imagekit.io/cocroooiz/frontend/gift-bag.png?updatedAt=1702480583466" />
+        <Item image="/images/dollar-bag.png" title="Fundraising" link={AppRoutes.GetInvolved} />
+        <Item title="Volunteering" link={AppRoutes.GetInvolved} image="/images/heart-bag.png" />
+        <Item title="Giving" link={AppRoutes.Donate} image="/images/gift-bag.png" />
       </div>
     </PageLayer>
   );

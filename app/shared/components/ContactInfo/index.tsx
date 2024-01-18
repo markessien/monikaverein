@@ -11,20 +11,9 @@ const ContactInfo = ({ className }: { className?: string }) => {
       </Text>
 
       <div className="flex justify-between items-center xl:flex-col xl:justify-center gap-14 max-w-7xl mx-auto w-full">
-        <Item
-          image="https://ik.imagekit.io/cocroooiz/frontend/christiana-sow.png?updatedAt=1701315798667"
-          name="Christiana Sow"
-          country="Germany"
-          phone="+1 7383-635-1574 "
-          email="contactperson@xxyg.de"
-        />
-        <Item
-          image="https://ik.imagekit.io/cocroooiz/frontend/etimbok-obot.png?updatedAt=1701315798231"
-          name="Etimbuk Obot"
-          country="Nigeria"
-          phone="+234-706-3390-988"
-          email="contactperson@xxyg.de"
-        />
+        <Item image="/images/christiana-sow.png" name="Christiana Sow" country="Germany" phone="+1 7383-635-1574 " email="contactperson@xxyg.de" />
+
+        <Item image="/images/etimbok-obot.png" name="Etimbuk Obot" country="Nigeria" phone="+234-706-3390-988" email="contactperson@xxyg.de" />
       </div>
     </PageLayer>
   );

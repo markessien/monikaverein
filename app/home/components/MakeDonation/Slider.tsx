@@ -79,22 +79,22 @@ export default ItemSlider;
 
 const list: Props[] = [
   {
-    image: "https://ik.imagekit.io/cocroooiz/frontend/Demcawheel%20chair.jpg?updatedAt=1702486683351",
+    image: "/images/home/Demcawheel%20chair.jpg",
     title: "Wheel chairs for Akwa Ibom state with DEMECA",
     text: "Partnering with DEMECA, we have been able to donate over 500 wheelchairs to support the physically challenged in Akwa Ibom, a State in the South-South region of Nigeria.",
   },
   {
-    image: "https://ik.imagekit.io/cocroooiz/frontend/Donation%20of%20school%20block%20at%20the%20home%20page.JPG?updatedAt=1702486773435",
+    image: "/images/home/Donation%20of%20school%20block%20at%20the%20home%20page.JPG",
     title: "Donation of school blocks to partner schools in Nigeria",
     text: "Thanks for your support. We were able to provide St. Paul Secondary School and the Monika Kindergarten and Elementary School new classroom blocks and other learning facilities.",
   },
   {
-    image: "https://ik.imagekit.io/cocroooiz/frontend/Usaka%20Evening%20Project.jpg?updatedAt=1702486793393",
+    image: "/images/home/Usaka%20Evening%20Project.jpg",
     title: "The Usaka Evening School project",
     text: "With your support we have taken education to children in Usaka, a poor community in the South-South Region of Nigeria where children have little or no access to adequate schools, good roads and clean water.",
   },
   {
-    image: "https://ik.imagekit.io/cocroooiz/frontend/donation-result-completed-library-2.png?updatedAt=1701231368410",
+    image: "/images/home/donation-result-completed-library-2.png",
     title: "Completed library for primary and secondary students",
     text: "With your support we have built a library for school children in a poor community in the South-South Region of Nigeria where children have little or no access to adequate books and learning tools",
   },
