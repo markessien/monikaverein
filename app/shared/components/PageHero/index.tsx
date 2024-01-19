@@ -46,7 +46,7 @@ const SliderItem = ({ image, hangerText }: SliderItemProps) => {
 
   return (
     <div className="bg-gray-200 relative w-full" style={{ height: "clamp(270px, 50vw, 768px)" }}>
-      <LazyImage className="size-full [&>img]:brightness-90" src={image} />
+      <LazyImage className="size-full [&>img]:brightness-90" src={image} loading="eager" />
       {hangerText}
     </div>
   );

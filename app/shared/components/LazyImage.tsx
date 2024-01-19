@@ -10,9 +10,10 @@ type Props = {
   blur?: string;
   style?: CSSProperties;
   imageClassName?: string;
+  loading?: "lazy" | "eager";
 };
 
-const LazyImage = ({ src = "", className = "", blur = "", id, style, imageClassName }: Props) => {
+const LazyImage = ({ src = "", className = "", blur = "", id, style, loading = "lazy", imageClassName }: Props) => {
   const divRef = useRef<HTMLDivElement>(null);
   const [mountLazy, setMountLazy] = useState(true);
 
@@ -59,11 +60,9 @@ const LazyImage = ({ src = "", className = "", blur = "", id, style, imageClassN
 
   return (
     <div ref={divRef} id={id} className={twMerge("relative overflow-hidden", className)} style={style}>
-      <img src={src} alt="" className="w-full h-full opacity-0 object-cover" loading="lazy" />
+      <img src={src} alt="" className="w-full h-full opacity-0 object-cover" loading={loading} />
 
-      {mountLazy && (
-        <div className={`${lazyClassNames} z-[1] skeleton rounded-none ${blur ? "bg-transparent" : ""} `}></div>
-      )}
+      {mountLazy && <div className={`${lazyClassNames} z-[1] skeleton rounded-none ${blur ? "bg-transparent" : ""} `}></div>}
 
       {mountLazy && blur && <img src={blur} alt="" className={`blur-lg object-cover ${lazyClassNames}`} />}
     </div>
