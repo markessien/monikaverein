@@ -61,7 +61,7 @@ const images = [
 
 const settings: SliderSettings = {
   dots: false,
-  lazyLoad: "ondemand",
+  lazyLoad: "progressive",
   fade: true,
   infinite: true,
   speed: 1500,
