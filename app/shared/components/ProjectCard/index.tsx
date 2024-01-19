@@ -9,7 +9,7 @@ export type ProjectCardProps = {
 };
 
 const ProjectCard = ({ title, text, image, amount: { expected, raised } }: ProjectCardProps) => {
-  const root = "https://ik.imagekit.io/cocroooiz/";
+  // const root = "https://ik.imagekit.io/cocroooiz/";
 
   return (
     <section className="flex justify-center lg_up:gap-10 md:gap-4 lg:flex-wrap">
@@ -18,8 +18,9 @@ const ProjectCard = ({ title, text, image, amount: { expected, raised } }: Proje
 
         <LazyImage
           className="h-[350px] sm:h-[250px] [&>img]:brightness-90"
-          src={root + "tr:h-350,w-724/" + image}
-          blur={root + "tr:w-50,h-50/" + image}
+          src={image}
+          // src={root + "tr:h-350,w-724/" + image}
+          // blur={root + "tr:w-50,h-50/" + image}
         />
 
         <div className="flex justify-center items-center min-h-[100px] bg-secondary-100 px-8 sm:px-4 pt-4">

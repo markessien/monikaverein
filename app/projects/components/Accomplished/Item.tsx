@@ -3,7 +3,7 @@ import LazyImage from "@/shared/components/LazyImage";
 export type ItemProps = { title: string; text: string; images: [string, string] };
 
 const Item = ({ title, text, images }: ItemProps) => {
-  const root = "https://ik.imagekit.io/cocroooiz/projects/";
+  // const root = "https://ik.imagekit.io/cocroooiz/projects/";
 
   return (
     <div>
@@ -16,8 +16,9 @@ const Item = ({ title, text, images }: ItemProps) => {
           <LazyImage
             key={img + idx}
             className="w-full max-w-[776px] [&>img]:brightness-90"
-            src={root + "tr:w-776,h-393/" + img}
-            blur={root + "tr:w-50,h-50/" + img}
+            src={img}
+            // src={root + "tr:w-776,h-393/" + img}
+            // blur={root + "tr:w-50,h-50/" + img}
           />
         ))}
       </div>
