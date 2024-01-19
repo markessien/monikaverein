@@ -109,6 +109,7 @@ const settings: SliderSettings = {
   autoplay: true,
   autoplaySpeed: 5000,
   swipe: true,
+  lazyLoad: "ondemand",
   responsive: [
     {
       breakpoint: 1200,
