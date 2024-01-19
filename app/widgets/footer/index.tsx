@@ -1,6 +1,6 @@
 import PageLayer from "@/shared/components/PageLayer";
 import ListItem, { LinkProps } from "./ListItem";
-import InitiativeBadge from "./InitiativeBadge";
+// import InitiativeBadge from "./InitiativeBadge";
 import Social from "./Social";
 import Logo from "../components/Logo";
 import Medium from "@/shared/icons/Medium";
@@ -26,7 +26,7 @@ const Footer = () => {
 
       <div className="flex flex-wrap gap-4 w-full max-w-[1500px]">
         <div className="flex sm:order-5">
-          <InitiativeBadge />
+          {/* <InitiativeBadge /> */}
 
           <Logo className="btn btn-ghost text-black-3 text-4xl font-inter font-black -mt-2 hover:bg-transparent" />
         </div>
