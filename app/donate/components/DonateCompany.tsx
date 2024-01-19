@@ -20,8 +20,7 @@ const DonateCompany = () => {
       <LazyImage
         className="rounded-full overflow-hidden"
         style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
-        src="https://ik.imagekit.io/cocroooiz/donate/Donate%20as%20a%20company.jpg?updatedAt=1703047973093"
-        blur="https://ik.imagekit.io/cocroooiz/donate/tr:w-50,h-50/Donate%20as%20a%20company.jpg?updatedAt=1703047973093"
+        src="/images/donate/Donate%20as%20a%20company.jpg"
       />
     </PageLayer>
   );

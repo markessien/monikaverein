@@ -4,9 +4,7 @@ import Text from "@/shared/components/Text";
 import ArrowRight from "@/shared/icons/ArrowRight";
 
 const WorkInAfrica = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
-
-  const images = ["work-in-africa-1.jpg?updatedAt=1704827405810", "work-in-africa-2.jpg?updatedAt=1704827080335"];
+  const images = ["/images/get_involved/work-in-africa-1.jpg", "/images/get_involved/work-in-africa-2.jpg"];
 
   return (
     <PageLayer className="grid gap-8">
@@ -23,8 +21,7 @@ const WorkInAfrica = () => {
             key={image + idx}
             style={{ height: "clamp(260px, 45vw, 393px)", maxWidth: "750px" }}
             className={`rounded-2xl w-full`}
-            src={root + "tr:w-750,h-393/" + image}
-            blur={root + "tr:w-50,h-50/" + image}
+            src={image}
           />
         ))}
       </div>

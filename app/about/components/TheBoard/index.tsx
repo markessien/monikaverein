@@ -32,7 +32,7 @@ const TheBoard = () => {
 
 const boardOfTrustees: ItemProps[] = [
   {
-    pic: "christiana-sow.jpeg?updatedAt=1703060795751",
+    pic: "/images/about/christiana-sow.jpeg",
     name: "Christiana Sow",
     role: "Chief Executive Officer",
     linkedin: "",
@@ -41,7 +41,7 @@ const boardOfTrustees: ItemProps[] = [
     bio: "Christiana Sow is known for her dynamic leadership and strategic vision. With a proven track record, she fosters collaboration, effective communication, and innovation, driving the organisation towards success. Christiana's commitment to excellence and passion for the mission make her a key driving force behind Monika Forderverein's achievements.",
   },
   {
-    pic: "sedina-sonarinwo.png?updatedAt=1702203652825",
+    pic: "/images/about/sedina-sonarinwo.png",
     name: "Sedina Sonarinwo",
     role: "Programme Director",
     linkedin: "",
@@ -53,7 +53,7 @@ const boardOfTrustees: ItemProps[] = [
 
 const executiveTeam: ItemProps[] = [
   {
-    pic: "etimbok-obot.png?updatedAt=1703060694395",
+    pic: "/images/about/etimbok-obot.png",
     name: "Etimbuk Obot",
     role: "Chief Operations Officer",
     linkedin: "",
@@ -62,7 +62,7 @@ const executiveTeam: ItemProps[] = [
     bio: "Etimbuk Obot is the Chief Operations Officer at Monika Forderverein, based in Nigeria. In this role, he is responsible for overseeing and optimising the organisation's day-to-day operations. Etimbuk plays a key leadership role in implementing operational strategies, ensuring efficiency, and contributing to the overall success of the association. With a focus on operational excellence, he brings valuable expertise to drive Monika Forderverein's mission forward.",
   },
   {
-    pic: "sedina-sonarinwo.png?updatedAt=1702203652825",
+    pic: "/images/about/sedina-sonarinwo.png",
     name: "Imaobong Ukut",
     role: "Programmes Coordinator",
     linkedin: "",

@@ -25,11 +25,7 @@ const OurMission = () => {
           a brighter and more prosperous Africa for all.
         </Text>
 
-        <LazyImage
-          className="w-[45%] h-[443px] lg:w-[60%] md:!w-full sm:h-[260px]"
-          src="https://ik.imagekit.io/cocroooiz/philosophy/Our%20Mission.jpg?updatedAt=1703047286736"
-          blur="https://ik.imagekit.io/cocroooiz/philosophy/tr:w-50,h-50/Our%20Mission.jpg?updatedAt=1703047286736"
-        />
+        <LazyImage className="w-[45%] h-[443px] lg:w-[60%] md:!w-full sm:h-[260px]" src="/images/philosophy/Our%20Mission.jpg" />
       </div>
     </PageLayer>
   );

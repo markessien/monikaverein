@@ -4,8 +4,7 @@ import PageLayer from "@/shared/components/PageLayer";
 import ArrowRight from "@/shared/icons/ArrowRight";
 
 const SpreadWord = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
-  const image = "spread-word.jpeg?updatedAt=1702359784000";
+  const image = "/images/get_involved/spread-word.jpeg";
 
   return (
     <PageLayer className="grid gap-4" id="spread-the-word">
@@ -38,12 +37,7 @@ const SpreadWord = () => {
           </ol>
         </div>
 
-        <LazyImage
-          style={{ height: "clamp(260px, 45vw, 393px)", maxWidth: "750px" }}
-          className={`rounded-2xl w-full`}
-          src={root + "tr:w-750,h-393/" + image}
-          blur={root + "tr:w-50,h-50/" + image}
-        />
+        <LazyImage style={{ height: "clamp(260px, 45vw, 393px)", maxWidth: "750px" }} className={`rounded-2xl w-full`} src={image} />
       </div>
 
       <button className="btn btn-primary w-fit mx-auto mt-10 lg:mt-4">

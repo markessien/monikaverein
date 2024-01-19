@@ -3,8 +3,7 @@ import LazyImage from "@/shared/components/LazyImage";
 import Text from "@/shared/components/Text";
 
 const FundRaise = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
-  const img = "fund-raise-for-us.jpg?updatedAt=1704827076478";
+  const img = "/images/get_involved/fund-raise-for-us.jpg";
 
   return (
     <PageLayer className="bg-secondary-100 h-[648px] lg:h-auto overflow-hidden flex gap-6 justify-around items-center lg:flex-col relative z-[1] p-10">
@@ -23,8 +22,7 @@ const FundRaise = () => {
       <LazyImage
         className="rounded-full overflow-hidden"
         style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
-        src={root + "tr:w-538,h-538/" + img}
-        blur={root + "tr:w-50,h-50/" + img}
+        src={img}
       />
     </PageLayer>
   );

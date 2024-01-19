@@ -10,7 +10,7 @@ const ItemsList = () => {
         title="Become a member"
         heading="Join Monika Kindergarten Förderverein Nigerian or German team"
         text="By becoming a member, you will join a dedicated team of individuals working towards a common goal – creating a brighter future for Africa. Together, we can make a lasting impact and unlock the potential of countless children. Join us today and be a driving force in empowering Africa through education."
-        image="become-partner.JPG?updatedAt=1704827080546"
+        image="/images/get_involved/become-partner.JPG"
         ltr
       />
 
@@ -18,7 +18,7 @@ const ItemsList = () => {
         title="Corporate Membership"
         heading="Get your Company or workplace group Involved"
         text="Is your company or workplace looking for meaningful ways to give back and make a lasting impact? Partner with us and together we can empower African communities through education.Through this partnership, you will not only enhance your corporate social responsibility profile but also create a positive and engaged work environment for your employees."
-        image="get-involved-2.jpeg?updatedAt=1703059808100"
+        image="/images/get_involved/get-involved-2.jpeg"
         btnText="Get in Touch"
       />
     </PageLayer>
@@ -35,8 +35,6 @@ type Props = {
 };
 
 const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) => {
-  const root = "https://ik.imagekit.io/cocroooiz/get_involved/";
-
   const textDir = ltr ? "text-left" : "text-right";
 
   const order = ltr ? "" : "-order-1";
@@ -65,8 +63,7 @@ const Item = ({ title, heading, text, ltr, image, btnText = "Join Us" }: Props) 
       <LazyImage
         style={{ height: "clamp(260px, 45vw, 440px)", maxWidth: "750px" }}
         className={`rounded-2xl w-full ${order} lg:order-1`}
-        src={root + "tr:w-750,h-440/" + image}
-        blur={root + "tr:w-50,h-50/" + image}
+        src={image}
       />
     </div>
   );

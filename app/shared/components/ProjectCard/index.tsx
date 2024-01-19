@@ -9,19 +9,12 @@ export type ProjectCardProps = {
 };
 
 const ProjectCard = ({ title, text, image, amount: { expected, raised } }: ProjectCardProps) => {
-  // const root = "https://ik.imagekit.io/cocroooiz/";
-
   return (
     <section className="flex justify-center lg_up:gap-10 md:gap-4 lg:flex-wrap">
       <div className="relative max-w-[724px] w-full rounded rounded-t-none overflow-hidden">
         <div className="absolute z-[1] rounded py-1 px-4 top-8 left-6 text-xl font-text text-secondary-100 bg-primary sm:text-base">URGENT</div>
 
-        <LazyImage
-          className="h-[350px] sm:h-[250px] [&>img]:brightness-90"
-          src={image}
-          // src={root + "tr:h-350,w-724/" + image}
-          // blur={root + "tr:w-50,h-50/" + image}
-        />
+        <LazyImage className="h-[350px] sm:h-[250px] [&>img]:brightness-90" src={image} />
 
         <div className="flex justify-center items-center min-h-[100px] bg-secondary-100 px-8 sm:px-4 pt-4">
           <ProgressBar raised={raised} expected={expected} />

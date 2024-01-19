@@ -3,9 +3,9 @@ import PageLayer from "@/shared/components/PageLayer";
 import LazyImage from "@/shared/components/LazyImage";
 
 const OurHistory = () => {
-  const root = "https://ik.imagekit.io/cocroooiz/about/";
+  // const root = "https://ik.imagekit.io/cocroooiz/about/";
 
-  const images = ["history-4.png?updatedAt=1702015609410", "goal2.png?updatedAt=1702198957831"];
+  const images = ["/images/about/history-4.png?updatedAt=1702015609410", "/images/about/goal2.png?updatedAt=1702198957831"];
 
   return (
     <PageLayer id="history">
@@ -44,8 +44,9 @@ const OurHistory = () => {
             key={img + idx}
             className="brightness-90"
             style={{ height: "clamp(260px, 50vw, 500px)", width: "100%", maxWidth: "776px" }}
-            src={root + img}
-            blur={root + "tr:w-50,h-50/" + img}
+            src={img}
+            // src={root + img}
+            // blur={root + "tr:w-50,h-50/" + img}
           />
         ))}
       </div>
