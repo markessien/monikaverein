@@ -20,14 +20,14 @@ const Header = () => {
         <NavItemList />
       </div>
 
-      <div className="navbar-end ml-auto w-auto sm:hidden">
+      <div className="navbar-end ml-auto w-auto sm:hidden border border-solid">
         <SearchAction />
 
-        <Link href={AppRoutes.Donate} className="btn btn-error text-white mr-4 ml-10">
+        <Link href={AppRoutes.Donate} className="btn btn-error text-white ml-10">
           Donate Now
         </Link>
 
-        <Image src={spendenSiegel} alt="" height={50} />
+        {/* <Image src={spendenSiegel} alt="" height={50} /> */}
       </div>
     </header>
   );
