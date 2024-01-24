@@ -21,9 +21,9 @@ const TransparentSociety = () => {
           </Text>
         </div>
 
-        <div className="rounded-xl bg-sky-50 max-w-[450px] min-w-[450px] w-[450px] lg:min-w-fit lg:max-w-full sm:w-full lg:h-50 grid place-items-center lg:mx-auto">
+        {/* <div className="rounded-xl bg-sky-50 max-w-[450px] min-w-[450px] w-[450px] lg:min-w-fit lg:max-w-full sm:w-full lg:h-50 grid place-items-center lg:mx-auto">
           <img src="/transparente.svg" className="max-w-full max-h-full" alt="" />
-        </div>
+        </div> */}
       </div>
     </PageLayer>
   );
