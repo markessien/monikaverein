@@ -20,7 +20,7 @@ const Header = () => {
         <NavItemList />
       </div>
 
-      <div className="navbar-end ml-auto w-auto sm:hidden border border-solid">
+      <div className="navbar-end ml-auto w-auto sm:hidden">
         <SearchAction />
 
         <Link href={AppRoutes.Donate} className="btn btn-error text-white ml-10">
