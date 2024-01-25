@@ -3,9 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Deploying
 install nexjs
 build with `npm run build`
-aws s3 rm s3://mke-verein.de --recursive
-aws s3 cp dist s3://mke-verein.de --recursive
-aws cloudfront create-invalidation --distribution-id E33M5C29LIMUJQ --paths "/*"
+aws s3 rm s3://mke-verein.de --recursive --profile mkeverein
+aws s3 cp dist s3://mke-verein.de --recursive --profile mkeverein
+aws cloudfront create-invalidation --distribution-id E33M5C29LIMUJQ --paths "/*" --profile mkeverein
 
 ## Getting Started
 
