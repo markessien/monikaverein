@@ -84,12 +84,12 @@ const list: Props[] = [
     text: "Partnering with DEMECA, we have been able to donate over 500 wheelchairs to support the physically challenged in Akwa Ibom, a State in the South-South region of Nigeria.",
   },
   {
-    image: "/images/home/Donation-of-school-block-at-the-home-page.JPG",
+    image: "/images/home/Donation-of-school-block-at-the-home-page.webp",
     title: "Donation of school blocks to partner schools in Nigeria",
     text: "Thanks for your support. We were able to provide St. Paul Secondary School and the Monika Kindergarten and Elementary School new classroom blocks and other learning facilities.",
   },
   {
-    image: "/images/home/Usaka-Evening-Project.jpg",
+    image: "/images/home/Usaka-Evening-Project.webp",
     title: "The Usaka Evening School project",
     text: "With your support we have taken education to children in Usaka, a poor community in the South-South Region of Nigeria where children have little or no access to adequate schools, good roads and clean water.",
   },
