@@ -20,7 +20,7 @@ const DonateCompany = () => {
       <LazyImage
         className="rounded-full overflow-hidden"
         style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
-        src="/images/donate/Donate%20as%20a%20company.jpg"
+        src="/images/donate/Donate-as-a-company.webp"
       />
     </PageLayer>
   );

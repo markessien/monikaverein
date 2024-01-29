@@ -21,7 +21,7 @@ const OurVision = () => {
       <div className="flex justify-between items-center gap-8 mt-8 lg:flex-col">
         <LazyImage
           className="rounded-full overflow-hidden"
-          src="/images/philosophy/Our%20Vision.jpg"
+          src="/images/philosophy/Our-Vision.webp"
           style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
         />
 

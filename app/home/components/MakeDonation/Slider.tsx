@@ -79,17 +79,17 @@ export default ItemSlider;
 
 const list: Props[] = [
   {
-    image: "/images/home/Demcawheel%20chair.jpg",
+    image: "/images/home/Demcawheel-chair.jpg",
     title: "Wheel chairs for Akwa Ibom state with DEMECA",
     text: "Partnering with DEMECA, we have been able to donate over 500 wheelchairs to support the physically challenged in Akwa Ibom, a State in the South-South region of Nigeria.",
   },
   {
-    image: "/images/home/Donation%20of%20school%20block%20at%20the%20home%20page.JPG",
+    image: "/images/home/Donation-of-school-block-at-the-home-page.JPG",
     title: "Donation of school blocks to partner schools in Nigeria",
     text: "Thanks for your support. We were able to provide St. Paul Secondary School and the Monika Kindergarten and Elementary School new classroom blocks and other learning facilities.",
   },
   {
-    image: "/images/home/Usaka%20Evening%20Project.jpg",
+    image: "/images/home/Usaka-Evening-Project.jpg",
     title: "The Usaka Evening School project",
     text: "With your support we have taken education to children in Usaka, a poor community in the South-South Region of Nigeria where children have little or no access to adequate schools, good roads and clean water.",
   },

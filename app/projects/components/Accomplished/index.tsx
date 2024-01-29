@@ -25,12 +25,12 @@ const Accomplished = () => {
 const list: ItemProps[] = [
   {
     title: "More than 5000 street kids have received sponsorships to return to school.",
-    images: ["/images/projects/from%20streets%20back%20to%20school.jpg", "/images/projects/from%20streets%20back%20to%20school%202.JPG"],
+    images: ["/images/projects/from-streets-back-to-school.webp", "/images/projects/from-streets-back-to-school-2.webp"],
     text: "With your unwavering support and through our “Back to School Project”, we have been able to get over 5000 children off the streets and back to school. This accomplishment is proof of the potent combination of kindness and collaborative effort. We are giving these kids a chance for a better future by granting them the opportunity to attend school. Their lives have been changed forever by your kindness, which is a strategic effort to ending the cycle of poverty and unlocking doors of opportunity for the children.",
   },
   {
     title: "Regular donation of wheelchairs to those in need.",
-    images: ["/images/projects/Demca-Wheel%20Chair-Donation%20with-Monika.jpg", "/images/projects/Demca%20Wheelchair%20donation.png"],
+    images: ["/images/projects/Demca-Wheel-Chair-Donation-with-Monika.webp", "/images/projects/Demca-Wheelchair-donation.png"],
     text: "Because of your kind donations, we have been able to continuously provide wheelchairs to persons in need. These wheelchairs, which permit users to move about their surroundings freely and with respect, have significantly changed the lives of many people. Every donation brings joy, smiles, and fresh possibilities to those whose mobility was previously constrained.",
   },
   {

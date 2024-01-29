@@ -20,7 +20,7 @@ const OngoingProjects = () => {
 
 const list: ProjectCardProps[] = [
   {
-    image: "/images/donate/Teaching%20Aids.jpg?updatedAt=1703047954190",
+    image: "/images/donate/Teaching-Aids.webp",
     amount: {
       expected: 150_000,
       raised: 15_000,
@@ -29,7 +29,7 @@ const list: ProjectCardProps[] = [
     text: `We understand the role teaching aids play ensuring effective learning. With your support, we regularly update the teaching aid and learning toys of children in our partner schools. Your donation could go a long way to make a significant difference in their learning.`,
   },
   {
-    image: "/images/donate/Copy%20of%20Demca%20Wheelchair%20donation.png?updatedAt=1703047474011",
+    image: "/images/donate/Copy-of-Demca-Wheelchair-donation.webp",
     amount: {
       expected: 150_000,
       raised: 13_000,

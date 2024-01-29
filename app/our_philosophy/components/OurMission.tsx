@@ -25,7 +25,7 @@ const OurMission = () => {
           a brighter and more prosperous Africa for all.
         </Text>
 
-        <LazyImage className="w-[45%] h-[443px] lg:w-[60%] md:!w-full sm:h-[260px]" src="/images/philosophy/Our%20Mission.jpg" />
+        <LazyImage className="w-[45%] h-[443px] lg:w-[60%] md:!w-full sm:h-[260px]" src="/images/philosophy/Our-Mission.webp" />
       </div>
     </PageLayer>
   );

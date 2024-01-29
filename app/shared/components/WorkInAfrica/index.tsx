@@ -36,7 +36,7 @@ const WorkInAfrica = ({ className }: Props) => {
       <LazyImage
         className="rounded-full overflow-hidden"
         style={{ height: "clamp(260px, 40vw, 450px)", width: "clamp(260px, 40vw, 450px)" }}
-        src="/images/Copy%20of%20Come%20and%20Work%20with%20us.jpg"
+        src="/images/Copy-of-Come-and-Work-with-us.jpg"
       />
     </PageLayer>
   );
