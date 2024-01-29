@@ -3,7 +3,7 @@ import LazyImage from "@/shared/components/LazyImage";
 import Text from "@/shared/components/Text";
 
 const FundRaise = () => {
-  const img = "/images/get_involved/fund-raise-for-us.jpg";
+  const img = "/images/get_involved/fund-raise-for-us.webp";
 
   return (
     <PageLayer className="bg-secondary-100 h-[648px] lg:h-auto overflow-hidden flex gap-6 justify-around items-center lg:flex-col relative z-[1] p-10">

@@ -4,7 +4,7 @@ import Text from "@/shared/components/Text";
 import ArrowRight from "@/shared/icons/ArrowRight";
 
 const WorkInAfrica = () => {
-  const images = ["/images/get_involved/work-in-africa-1.jpg", "/images/get_involved/work-in-africa-2.jpg"];
+  const images = ["/images/get_involved/work-in-africa-1.webp", "/images/get_involved/work-in-africa-2.webp"];
 
   return (
     <PageLayer className="grid gap-8">
