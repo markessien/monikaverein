@@ -4,12 +4,7 @@ import PageLayer from "@/shared/components/PageLayer";
 const Hero = () => {
   return (
     <PageLayer className="!p-0 relative flex justify-center items-center min-w-full" style={{ height: "clamp(270px, 50vw, 768px)" }}>
-      <LazyImage
-        className="w-full h-full"
-        src="/images/monika-school.png"
-        // src="https://ik.imagekit.io/cocroooiz/frontend/monika-school.png?updatedAt=1702013525265"
-        // blur="https://ik.imagekit.io/cocroooiz/frontend/tr:w-50,h-50/monika-school.png?updatedAt=1702013525265"
-      />
+      <LazyImage className="w-full h-full" src="/images/monika-school.webp" />
 
       <div className="absolute left-20 text-white md:left-5 grid gap-4 text-6xl xl:text-4xl sm:!text-lg font-title font-bold">
         <div className="text-black bg-white rounded p-6 md:p-2 w-fit sm:!p-1">About us at Monika</div>

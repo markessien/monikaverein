@@ -53,10 +53,10 @@ const SliderItem = ({ image, hangerText }: SliderItemProps) => {
 };
 
 const images = [
-  { image: "/images/multi-purpose-assembly-hall.jpeg", hangerText: <HangerText1 /> },
-  { image: "/images/donate-hero.jpg", hangerText: <></> },
-  { image: "/images/monika-school.png", hangerText: <></> },
-  { image: "/images/hero-1.png", hangerText: <></> },
+  { image: "/images/multi-purpose-assembly-hall.webp", hangerText: <HangerText1 /> },
+  { image: "/images/donate-hero.webp", hangerText: <></> },
+  { image: "/images/monika-school.webp", hangerText: <></> },
+  { image: "/images/hero-1.webp", hangerText: <></> },
 ];
 
 const settings: SliderSettings = {

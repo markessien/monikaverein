@@ -35,8 +35,9 @@ const list: ItemProps[] = [
   },
   {
     title: "Donation of school blocks",
-    images: ["/images/our-philosophy.jpeg", "/images/projects/accomplished-2.jpeg"],
+    images: ["/images/our-philosophy.webp", "/images/projects/accomplished-2.webp"],
     text: "Your contributions over the years have had significant impacts on us. Our partner schools in Nigeria have successfully received new school buildings and basic school supplies for school children from your contributions.",
   },
 ];
+
 export default Accomplished;
