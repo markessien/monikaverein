@@ -55,7 +55,7 @@ const InProgress = () => {
           the community."
         list={[
           {
-            image: "/images/projects/Construction%20of%20Hostel%20Block.jpg?updatedAt=1703042981666",
+            image: "/images/projects/Construction-of-Hostel-Block.jpg",
             amount: {
               expected: 150_000,
               raised: 15_000,
@@ -64,7 +64,7 @@ const InProgress = () => {
             text: `We pull over a thousand students off the streets each year and offer them free boarding facilities so they can learn effectively. We need your assistance to grow and develop more opportunities for housing for more kids. Please donate.`,
           },
           {
-            image: "/images/projects/st-pail-library.jpeg?updatedAt=1703045637218",
+            image: "/images/projects/st-pail-library.jpeg",
             amount: {
               expected: 150_000,
               raised: 15_000,
